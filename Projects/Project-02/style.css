@@ -8,11 +8,28 @@
   display: flex;
   padding: 20px;
 }
+
 #A-triangle-topleft {
   width: 0;
   height: 0;
   border-top: 100px solid black;
   border-right: 50px solid transparent;
+  animation-name: A;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes A {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.5);
+  }
 }
 
 #A-triangle-topright {
@@ -36,13 +53,47 @@
   border-top: 25px solid transparent;
   border-left: 80px solid black;
   border-bottom: 25px solid transparent;
+  animation-name: B-1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
+
+@keyframes B-1 {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 #B-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 25px solid transparent;
   border-left: 80px solid black;
   border-bottom: 25px solid transparent;
+  animation-name: B-2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes B-2 {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.1);
+    rotate: 45deg;
+  }
 }
 
 .C {
@@ -57,6 +108,22 @@
   height: 0;
   border-top: 50px solid black;
   border-right: 60px solid transparent;
+  animation-name: C-1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes C-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 0);
+  }
 }
 
 #C-triangle-bottomleft {
@@ -64,6 +131,22 @@
   height: 0;
   border-bottom: 50px solid black;
   border-right: 60px solid transparent;
+  animation-name: C-2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 2s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes C-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 0);
+  }
 }
 
 .D {
@@ -79,6 +162,22 @@
   border-top: 50px solid transparent;
   border-left: 80px solid black;
   border-bottom: 50px solid transparent;
+  animation-name: D;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes D {
+  0% {
+    border-radius: 0%;
+  }
+  100% {
+    border-radius: 60%;
+  }
 }
 
 .E {
@@ -94,6 +193,21 @@
   border-top: 15px solid transparent;
   border-right: 80px solid black;
   border-bottom: 15px solid transparent;
+  animation-name: E-1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes E-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 20px);
+  }
 }
 
 #E-triangle-right {
@@ -110,6 +224,22 @@
   border-top: 15px solid transparent;
   border-right: 80px solid black;
   border-bottom: 15px solid transparent;
+  animation-name: E-2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes E-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, -20px);
+  }
 }
 
 .F {
