@@ -1,13 +1,18 @@
 body {
   background-color: aquamarine;
   height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
 }
 .container {
   display: flex;
   flex-flow: row wrap;
   flex-direction: column;
   height: auto;
-  width: 600px;
+  width: 610px;
+  border: 1px solid salmon;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .month-wrap {
@@ -23,7 +28,9 @@ body {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  background-color: azure;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: xx-large;
 }
 
 .week {
@@ -39,4 +46,6 @@ body {
 
 .day {
   margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
