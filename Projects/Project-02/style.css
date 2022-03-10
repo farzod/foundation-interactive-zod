@@ -1,0 +1,682 @@
+.container {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.A {
+  display: flex;
+  padding: 20px;
+}
+#A-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-right: 50px solid transparent;
+}
+
+#A-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-left: 50px solid transparent;
+  margin-left: -20px;
+}
+
+.B {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#B-triangle-right-1 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 80px solid black;
+  border-bottom: 25px solid transparent;
+}
+#B-triangle-right-2 {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 80px solid black;
+  border-bottom: 25px solid transparent;
+}
+
+.C {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#C-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 50px solid black;
+  border-right: 60px solid transparent;
+}
+
+#C-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-right: 60px solid transparent;
+}
+
+.D {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#D-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 80px solid black;
+  border-bottom: 50px solid transparent;
+}
+
+.E {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#E-triangle-left-1 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 80px solid black;
+  border-bottom: 15px solid transparent;
+}
+
+#E-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 80px solid black;
+  border-bottom: 20px solid transparent;
+}
+
+#E-triangle-left-2 {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 80px solid black;
+  border-bottom: 15px solid transparent;
+}
+
+.F {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#F-triangle-right-1 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 80px solid black;
+  border-bottom: 10px solid transparent;
+}
+#F-triangle-right-2 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 0px solid black;
+  border-bottom: 10px solid transparent;
+}
+
+#F-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 60px solid black;
+}
+
+.G {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#G-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 40px solid black;
+  border-right: 60px solid transparent;
+}
+
+#G-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+  margin-left: 40px;
+}
+
+#G-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid black;
+  border-right: 60px solid transparent;
+  margin-bottom: -20px;
+}
+
+.H-wrapper {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+.H-middle {
+  display: flex;
+  width: 30px;
+  height: 40px;
+  color: black;
+}
+
+#H-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 30px solid black;
+  border-bottom: 50px solid transparent;
+}
+
+#H-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 30px solid black;
+  border-bottom: 50px solid transparent;
+}
+
+.I {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#I-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 100px solid black;
+}
+
+.J {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#J-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 80px solid black;
+  margin-left: 20px;
+}
+#J-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 20px solid black;
+  border-bottom: 10px solid transparent;
+}
+
+.K {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#K-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 40px solid black;
+  border-right: 60px solid transparent;
+}
+
+#K-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 60px solid black;
+  border-bottom: 10px solid transparent;
+}
+
+#K-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid black;
+  border-right: 60px solid transparent;
+  margin-bottom: -20px;
+}
+
+.L {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#L-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 80px solid black;
+  margin-left: 20px;
+}
+#L-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 60px solid black;
+  border-bottom: 10px solid transparent;
+}
+
+.M {
+  display: flex;
+
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#M-triangle-down-1 {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 100px solid black;
+}
+#M-triangle-down-2 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 100px solid black;
+}
+#M-triangle-down-3 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 100px solid black;
+}
+
+.N {
+  display: flex;
+
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#N-triangle-down-1 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 100px solid black;
+}
+#N-triangle-down-2 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 100px solid black;
+}
+
+.O {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.O-left {
+  display: flex;
+  flex-direction: column;
+}
+
+#O-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 50px solid black;
+  border-right: 50px solid transparent;
+}
+#O-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-right: 50px solid transparent;
+}
+.O-right {
+  display: flex;
+  flex-direction: column;
+}
+
+#O-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 50px solid black;
+  border-left: 50px solid transparent;
+}
+
+#O-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-left: 50px solid transparent;
+}
+
+.P {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#P-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 60px solid black;
+}
+#P-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 60px solid black;
+  border-bottom: 20px solid transparent;
+}
+
+.Q-wrapper {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.Q {
+  display: flex;
+  flex-direction: column;
+}
+.Q-middle {
+  display: flex;
+  margin-top: 40px;
+  margin-left: -40px;
+}
+
+#Q-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 50px solid black;
+  border-right: 40px solid transparent;
+}
+#Q-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-right: 40px solid transparent;
+}
+
+#Q-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+  margin-top: 40px;
+}
+
+#Q-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 50px solid black;
+  border-left: 40px solid transparent;
+}
+
+#Q-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-left: 40px solid transparent;
+}
+
+.R {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#R-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 30px solid black;
+  border-right: 60px solid transparent;
+}
+
+#R-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 70px solid black;
+  border-right: 60px solid transparent;
+}
+
+.S {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 30px;
+  padding: 20px;
+}
+
+.S-1 {
+  display: flex;
+  margin-left: 60px;
+}
+
+.S-2 {
+  display: flex;
+}
+
+#S-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 50px solid black;
+  border-right: 60px solid transparent;
+}
+
+#S-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-left: 60px solid transparent;
+}
+
+.T {
+  display: flex;
+  padding: 20px;
+}
+#T-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 40px solid black;
+  border-right: 50px solid transparent;
+}
+
+#T-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 100px solid black;
+  margin-left: -20px;
+}
+
+#T-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 40px solid black;
+  border-left: 50px solid transparent;
+  margin-left: -20px;
+}
+
+.U {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#U-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 60px solid black;
+  border-right: 60px solid transparent;
+}
+#U-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 60px solid black;
+  border-left: 60px solid transparent;
+}
+
+.V {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#V-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-right: 50px solid transparent;
+}
+#V-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-left: 50px solid transparent;
+}
+
+.W {
+  display: flex;
+
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#W-triangle-down-1 {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 100px solid black;
+}
+#W-triangle-down-2 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 100px solid black;
+}
+#W-triangle-down-3 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 100px solid black;
+}
+
+.X {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#X-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 40px solid black;
+  border-bottom: 50px solid transparent;
+}
+
+#X-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 40px solid black;
+  border-bottom: 50px solid transparent;
+}
+
+.Y {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+#Y-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 50px solid black;
+}
+#Y-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 50px solid black;
+}
+
+.Z {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 30px;
+  padding: 20px;
+}
+
+.Z-1 {
+  display: flex;
+}
+
+.Z-2 {
+  display: flex;
+  margin-left: 60px;
+}
+
+#Z-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 50px solid black;
+  border-left: 60px solid transparent;
+}
+
+#Z-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid black;
+  border-right: 60px solid transparent;
+}
