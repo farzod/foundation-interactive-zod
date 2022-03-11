@@ -1,0 +1,888 @@
+.container {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.A {
+  display: flex;
+  padding: 20px;
+}
+
+#A-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 200px solid black;
+  border-right: 100px solid transparent;
+}
+
+.A:hover {
+  animation-name: A-1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes A-1 {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+#A-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 200px solid black;
+  border-left: 100px solid transparent;
+  margin-left: -20px;
+}
+
+.A:hover {
+  animation-name: A-2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes A-2 {
+  0% {
+    transform: rotate(deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+.B {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  padding: 20px;
+}
+
+#B-triangle-right-1 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 160px solid black;
+  border-bottom: 50px solid transparent;
+  animation-name: B-1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes B-1 {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+#B-triangle-right-2 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 160px solid black;
+  border-bottom: 50px solid transparent;
+  animation-name: B-2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes B-2 {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.1);
+    rotate: 45deg;
+  }
+}
+
+.C {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#C-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-right: 120px solid transparent;
+  animation-name: C-1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes C-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 0);
+  }
+}
+
+#C-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-right: 120px solid transparent;
+  animation-name: C-2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 2s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes C-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 0);
+  }
+}
+
+.D {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#D-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 160px solid black;
+  border-bottom: 100px solid transparent;
+  animation-name: D;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes D {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.E {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#E-triangle-left-1 {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-right: 160px solid black;
+  border-bottom: 30px solid transparent;
+  animation-name: E-1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes E-1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 20px);
+  }
+}
+
+#E-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-left: 160px solid black;
+  border-bottom: 40px solid transparent;
+}
+
+#E-triangle-left-2 {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-right: 160px solid black;
+  border-bottom: 30px solid transparent;
+  animation-name: E-2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes E-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, -20px);
+  }
+}
+
+.F {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#F-triangle-right-1 {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 160px solid black;
+  border-bottom: 20px solid transparent;
+  animation-name: F-1;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes F-1 {
+  0% {
+    transform: translate(0, 30px);
+  }
+  100% {
+    transform: translate(0, -20px);
+  }
+}
+
+#F-triangle-right-2 {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 0px solid black;
+  border-bottom: 20px solid transparent;
+}
+
+#F-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 120px solid black;
+}
+
+.G {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#G-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 80px solid black;
+  border-right: 120px solid transparent;
+  animation-name: G-1;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes G-1 {
+  0% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, 40px);
+  }
+}
+
+#G-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid black;
+  margin-left: 80px;
+  animation-name: G-2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes G-2 {
+  0% {
+    border-left: 20%;
+  }
+  100% {
+  }
+}
+
+#G-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid black;
+  border-right: 120px solid transparent;
+  margin-bottom: -20px;
+  animation-name: G-3;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes G-3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(40px, 0);
+  }
+}
+
+.H-wrapper {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+.H-middle {
+  display: flex;
+  width: 30px;
+  height: 40px;
+  color: black;
+}
+
+#H-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 60px solid black;
+  border-bottom: 100px solid transparent;
+}
+
+#H-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-right: 60px solid black;
+  border-bottom: 100px solid transparent;
+}
+
+.I {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#I-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 200px solid black;
+}
+
+.J {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#J-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 160px solid black;
+  margin-left: 40px;
+}
+#J-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 40px solid black;
+  border-bottom: 20px solid transparent;
+}
+
+.K {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#K-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 80px solid black;
+  border-right: 160px solid transparent;
+}
+
+#K-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 160px solid black;
+  border-bottom: 20px solid transparent;
+}
+
+#K-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid black;
+  border-right: 160px solid transparent;
+  margin-bottom: -20px;
+}
+
+.L {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#L-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 160px solid black;
+  margin-left: 40px;
+}
+#L-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 160px solid black;
+  border-bottom: 20px solid transparent;
+}
+
+.M {
+  display: flex;
+
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#M-triangle-down-1 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 200px solid black;
+}
+#M-triangle-down-2 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 200px solid black;
+}
+#M-triangle-down-3 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 200px solid black;
+}
+
+.N {
+  display: flex;
+
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#N-triangle-down-1 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 200px solid black;
+}
+#N-triangle-down-2 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 200px solid black;
+}
+
+.O {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.O-left {
+  display: flex;
+  flex-direction: column;
+}
+
+#O-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-right: 100px solid transparent;
+}
+#O-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-right: 100px solid transparent;
+}
+.O-right {
+  display: flex;
+  flex-direction: column;
+}
+
+#O-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-left: 100px solid transparent;
+}
+
+#O-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-left: 100px solid transparent;
+}
+
+.P {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  padding: 20px;
+}
+
+#P-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 120px solid black;
+}
+#P-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-right: 120px solid black;
+  border-bottom: 40px solid transparent;
+}
+
+.Q {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.Q-left {
+  display: flex;
+  flex-direction: column;
+}
+
+#Q-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-right: 100px solid transparent;
+}
+#Q-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-right: 100px solid transparent;
+}
+.Q-right {
+  display: flex;
+  flex-direction: column;
+}
+
+#Q-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-left: 100px solid transparent;
+}
+
+#Q-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-left: 100px solid transparent;
+}
+
+.R {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#R-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 60px solid black;
+  border-right: 120px solid transparent;
+}
+
+#R-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 140px solid black;
+  border-right: 120px solid transparent;
+}
+
+.S {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 60px;
+  padding: 20px;
+}
+
+.S-1 {
+  display: flex;
+  margin-left: 120px;
+}
+
+.S-2 {
+  display: flex;
+}
+
+#S-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-right: 120px solid transparent;
+}
+
+#S-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-left: 120px solid transparent;
+}
+
+.T {
+  display: flex;
+  padding: 20px;
+}
+#T-triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 80px solid black;
+  border-right: 100px solid transparent;
+}
+
+#T-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 200px solid black;
+  margin-left: -20px;
+}
+
+#T-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 80px solid black;
+  border-left: 100px solid transparent;
+  margin-left: -20px;
+}
+
+.U {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+#U-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 120px solid black;
+  border-right: 120px solid transparent;
+}
+#U-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 120px solid black;
+  border-left: 120px solid transparent;
+}
+
+.V {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#V-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid black;
+  border-right: 100px solid transparent;
+}
+#V-triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid black;
+  border-left: 100px solid transparent;
+}
+
+.W {
+  display: flex;
+
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#W-triangle-down-1 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 200px solid black;
+}
+#W-triangle-down-2 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 200px solid black;
+}
+#W-triangle-down-3 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 200px solid black;
+}
+
+.X {
+  display: flex;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+#X-triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-left: 80px solid black;
+  border-bottom: 100px solid transparent;
+}
+
+#X-triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-right: 80px solid black;
+  border-bottom: 100px solid transparent;
+}
+
+.Y {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 20px;
+}
+#Y-triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 100px solid black;
+}
+#Y-triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid black;
+}
+
+.Z {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 60px;
+  padding: 20px;
+}
+
+.Z-1 {
+  display: flex;
+}
+
+.Z-2 {
+  display: flex;
+  margin-left: 120px;
+}
+
+#Z-triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-left: 120px solid transparent;
+}
+
+#Z-triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid black;
+  border-right: 120px solid transparent;
+}
