@@ -6,148 +6,1707 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   </head>
   <body>
+    <div class="title">Hover your mouse to reveal the letters.</div>
     <div class="container">
-      <div class="A">
-        <div id="A-triangle-topleft"></div>
-        <div id="A-triangle-topright"></div>
+      <div class="A-off">
+        <div id="A-off-triangle-right-1"></div>
+        <div id="A-off-triangle-down-1"></div>
+        <div id="A-off-triangle-up-1"></div>
+        <div id="A-off-triangle-down-2"></div>
+        <div id="A-off-triangle-left-1"></div>
+        <div id="A-off-triangle-left-2"></div>
+        <div id="A-off-triangle-right-2"></div>
+        <div id="A-off-triangle-down-3"></div>
+        <div id="A-off-triangle-left-3"></div>
+        <div id="A-off-triangle-right-3"></div>
+        <div id="A-off-triangle-right-4"></div>
+        <div id="A-off-triangle-up-2"></div>
+        <div id="A-off-triangle-left-4"></div>
+        <div id="A-off-triangle-left-5"></div>
+        <div id="A-off-triangle-right-5"></div>
+        <div id="A-off-triangle-down-4"></div>
+        <div id="A-off-triangle-left-6"></div>
+        <div id="A-off-triangle-right-6"></div>
+        <div id="A-off-triangle-right-7"></div>
+        <div id="A-off-triangle-up-3"></div>
+        <div id="A-off-triangle-left-7"></div>
+        <div id="A-off-triangle-up-4"></div>
+        <div id="A-off-triangle-down-5"></div>
+        <div id="A-off-triangle-up-5"></div>
       </div>
-      <div class="B">
-        <div id="B-triangle-right-1"></div>
-        <div id="B-triangle-right-2"></div>
-      </div>
-      <div class="C">
-        <div id="C-triangle-topleft"></div>
-        <div id="C-triangle-bottomleft"></div>
-      </div>
-      <div class="D">
-        <div id="D-triangle-right"></div>
-      </div>
-      <div class="E">
-        <div id="E-triangle-left-1"></div>
-        <div id="E-triangle-right"></div>
 
-        <div id="E-triangle-left-2"></div>
+      <div class="A-on">
+        <div id="A-off-triangle-right-1"></div>
+        <div id="A-off-triangle-down-1"></div>
+        <div id="A-off-triangle-up-1"></div>
+        <div id="A-off-triangle-down-2"></div>
+        <div id="A-off-triangle-left-1"></div>
+        <div id="A-on-triangle-left-2"></div>
+        <div id="A-off-triangle-right-2"></div>
+        <div id="A-on-triangle-down-3"></div>
+        <div id="A-off-triangle-left-3"></div>
+        <div id="A-on-triangle-right-3"></div>
+        <div id="A-off-triangle-right-4"></div>
+        <div id="A-off-triangle-up-2"></div>
+        <div id="A-off-triangle-left-4"></div>
+        <div id="A-on-triangle-left-5"></div>
+        <div id="A-off-triangle-right-5"></div>
+        <div id="A-on-triangle-down-4"></div>
+        <div id="A-off-triangle-left-6"></div>
+        <div id="A-on-triangle-right-6"></div>
+        <div id="A-off-triangle-right-7"></div>
+        <div id="A-off-triangle-up-3"></div>
+        <div id="A-off-triangle-left-7"></div>
+        <div id="A-off-triangle-up-4"></div>
+        <div id="A-off-triangle-down-5"></div>
+        <div id="A-off-triangle-up-5"></div>
       </div>
-      <div class="F">
-        <div id="F-triangle-right-1"></div>
 
-        <div id="F-triangle-right-1"></div>
-        <div id="F-triangle-down"></div>
+      <div class="B-off">
+        <div id="B-off-triangle-right-1"></div>
+        <div id="B-off-triangle-down-1"></div>
+        <div id="B-off-triangle-up-1"></div>
+        <div id="B-off-triangle-down-2"></div>
+        <div id="B-off-triangle-left-1"></div>
+        <div id="B-off-triangle-left-2"></div>
+        <div id="B-off-triangle-right-2"></div>
+        <div id="B-off-triangle-down-3"></div>
+        <div id="B-off-triangle-left-3"></div>
+        <div id="B-off-triangle-right-3"></div>
+        <div id="B-off-triangle-right-4"></div>
+        <div id="B-off-triangle-up-2"></div>
+        <div id="B-off-triangle-left-4"></div>
+        <div id="B-off-triangle-left-5"></div>
+        <div id="B-off-triangle-right-5"></div>
+        <div id="B-off-triangle-down-4"></div>
+        <div id="B-off-triangle-left-6"></div>
+        <div id="B-off-triangle-right-6"></div>
+        <div id="B-off-triangle-right-7"></div>
+        <div id="B-off-triangle-up-3"></div>
+        <div id="B-off-triangle-left-7"></div>
+        <div id="B-off-triangle-up-4"></div>
+        <div id="B-off-triangle-down-5"></div>
+        <div id="B-off-triangle-up-5"></div>
       </div>
-      <div class="G">
-        <div id="G-triangle-topleft"></div>
-        <div id="G-triangle-up"></div>
-        <div id="G-triangle-bottomleft"></div>
+
+      <div class="B-on">
+        <div id="B-off-triangle-right-1"></div>
+        <div id="B-off-triangle-down-1"></div>
+        <div id="B-off-triangle-up-1"></div>
+        <div id="B-off-triangle-down-2"></div>
+        <div id="B-off-triangle-left-1"></div>
+        <div id="B-off-triangle-left-2"></div>
+        <div id="B-on-triangle-right-2"></div>
+        <div id="B-on-triangle-down-3"></div>
+        <div id="B-off-triangle-left-3"></div>
+        <div id="B-on-triangle-right-3"></div>
+        <div id="B-off-triangle-right-4"></div>
+        <div id="B-on-triangle-up-2"></div>
+        <div id="B-off-triangle-left-4"></div>
+        <div id="B-off-triangle-left-5"></div>
+        <div id="B-on-triangle-right-5"></div>
+        <div id="B-on-triangle-down-4"></div>
+        <div id="B-off-triangle-left-6"></div>
+        <div id="B-on-triangle-right-6"></div>
+        <div id="B-off-triangle-right-7"></div>
+        <div id="B-on-triangle-up-3"></div>
+        <div id="B-off-triangle-left-7"></div>
+        <div id="B-off-triangle-up-4"></div>
+        <div id="B-off-triangle-down-5"></div>
+        <div id="B-off-triangle-up-5"></div>
       </div>
-      <div class="H-wrapper">
-        <div class="H">
-          <div id="H-triangle-right"></div>
-        </div>
-        <div class="H-middle"></div>
-        <div class="H">
-          <div id="H-triangle-left"></div>
-        </div>
+
+      <div class="C-off">
+        <div id="C-off-triangle-right-1"></div>
+        <div id="C-off-triangle-down-1"></div>
+        <div id="C-off-triangle-up-1"></div>
+        <div id="C-off-triangle-down-2"></div>
+        <div id="C-off-triangle-left-1"></div>
+        <div id="C-off-triangle-left-2"></div>
+        <div id="C-off-triangle-right-2"></div>
+        <div id="C-off-triangle-down-3"></div>
+        <div id="C-off-triangle-left-3"></div>
+        <div id="C-off-triangle-right-3"></div>
+        <div id="C-off-triangle-right-4"></div>
+        <div id="C-off-triangle-up-2"></div>
+        <div id="C-off-triangle-left-4"></div>
+        <div id="C-off-triangle-left-5"></div>
+        <div id="C-off-triangle-right-5"></div>
+        <div id="C-off-triangle-down-4"></div>
+        <div id="C-off-triangle-left-6"></div>
+        <div id="C-off-triangle-right-6"></div>
+        <div id="C-off-triangle-right-7"></div>
+        <div id="C-off-triangle-up-3"></div>
+        <div id="C-off-triangle-left-7"></div>
+        <div id="C-off-triangle-up-4"></div>
+        <div id="C-off-triangle-down-5"></div>
+        <div id="C-off-triangle-up-5"></div>
       </div>
-      <div class="I">
-        <div id="I-triangle-down"></div>
+
+      <div class="C-on">
+        <div id="C-off-triangle-right-1"></div>
+        <div id="C-off-triangle-down-1"></div>
+        <div id="C-off-triangle-up-1"></div>
+        <div id="C-off-triangle-down-2"></div>
+        <div id="C-off-triangle-left-1"></div>
+        <div id="C-on-triangle-left-2"></div>
+        <div id="C-off-triangle-right-2"></div>
+        <div id="C-on-triangle-down-3"></div>
+        <div id="C-off-triangle-left-3"></div>
+        <div id="C-off-triangle-right-3"></div>
+        <div id="C-off-triangle-right-4"></div>
+        <div id="C-off-triangle-up-2"></div>
+        <div id="C-off-triangle-left-4"></div>
+        <div id="C-on-triangle-left-5"></div>
+        <div id="C-off-triangle-right-5"></div>
+        <div id="C-off-triangle-down-4"></div>
+        <div id="C-off-triangle-left-6"></div>
+        <div id="C-off-triangle-right-6"></div>
+        <div id="C-off-triangle-right-7"></div>
+        <div id="C-on-triangle-up-3"></div>
+        <div id="C-off-triangle-left-7"></div>
+        <div id="C-off-triangle-up-4"></div>
+        <div id="C-off-triangle-down-5"></div>
+        <div id="C-off-triangle-up-5"></div>
       </div>
-      <div class="J">
-        <div id="J-triangle-down"></div>
-        <div id="J-triangle-left"></div>
+
+      <div class="D-off">
+        <div id="D-off-triangle-right-1"></div>
+        <div id="D-off-triangle-down-1"></div>
+        <div id="D-off-triangle-up-1"></div>
+        <div id="D-off-triangle-down-2"></div>
+        <div id="D-off-triangle-left-1"></div>
+        <div id="D-off-triangle-left-2"></div>
+        <div id="D-off-triangle-right-2"></div>
+        <div id="D-off-triangle-down-3"></div>
+        <div id="D-off-triangle-left-3"></div>
+        <div id="D-off-triangle-right-3"></div>
+        <div id="D-off-triangle-right-4"></div>
+        <div id="D-off-triangle-up-2"></div>
+        <div id="D-off-triangle-left-4"></div>
+        <div id="D-off-triangle-left-5"></div>
+        <div id="D-off-triangle-right-5"></div>
+        <div id="D-off-triangle-down-4"></div>
+        <div id="D-off-triangle-left-6"></div>
+        <div id="D-off-triangle-right-6"></div>
+        <div id="D-off-triangle-right-7"></div>
+        <div id="D-off-triangle-up-3"></div>
+        <div id="D-off-triangle-left-7"></div>
+        <div id="D-off-triangle-up-4"></div>
+        <div id="D-off-triangle-down-5"></div>
+        <div id="D-off-triangle-up-5"></div>
       </div>
-      <div class="K">
-        <div id="K-triangle-topleft"></div>
-        <div id="K-triangle-left"></div>
-        <div id="K-triangle-bottomleft"></div>
+
+      <div class="D-on">
+        <div id="D-off-triangle-right-1"></div>
+        <div id="D-off-triangle-down-1"></div>
+        <div id="D-off-triangle-up-1"></div>
+        <div id="D-off-triangle-down-2"></div>
+        <div id="D-off-triangle-left-1"></div>
+        <div id="D-off-triangle-left-2"></div>
+        <div id="D-on-triangle-right-2"></div>
+        <div id="D-on-triangle-down-3"></div>
+        <div id="D-off-triangle-left-3"></div>
+        <div id="D-on-triangle-right-3"></div>
+        <div id="D-off-triangle-right-4"></div>
+        <div id="D-off-triangle-up-2"></div>
+        <div id="D-on-triangle-left-4"></div>
+        <div id="D-off-triangle-left-5"></div>
+        <div id="D-on-triangle-right-5"></div>
+        <div id="D-off-triangle-down-4"></div>
+        <div id="D-off-triangle-left-6"></div>
+        <div id="D-on-triangle-right-6"></div>
+        <div id="D-off-triangle-right-7"></div>
+        <div id="D-on-triangle-up-3"></div>
+        <div id="D-off-triangle-left-7"></div>
+        <div id="D-off-triangle-up-4"></div>
+        <div id="D-off-triangle-down-5"></div>
+        <div id="D-off-triangle-up-5"></div>
       </div>
-      <div class="L">
-        <div id="L-triangle-down"></div>
-        <div id="L-triangle-left"></div>
+
+      <div class="E-off">
+        <div id="E-off-triangle-right-1"></div>
+        <div id="E-off-triangle-down-1"></div>
+        <div id="E-off-triangle-up-1"></div>
+        <div id="E-off-triangle-down-2"></div>
+        <div id="E-off-triangle-left-1"></div>
+        <div id="E-off-triangle-left-2"></div>
+        <div id="E-off-triangle-right-2"></div>
+        <div id="E-off-triangle-down-3"></div>
+        <div id="E-off-triangle-left-3"></div>
+        <div id="E-off-triangle-right-3"></div>
+        <div id="E-off-triangle-right-4"></div>
+        <div id="E-off-triangle-up-2"></div>
+        <div id="E-off-triangle-left-4"></div>
+        <div id="E-off-triangle-left-5"></div>
+        <div id="E-off-triangle-right-5"></div>
+        <div id="E-off-triangle-down-4"></div>
+        <div id="E-off-triangle-left-6"></div>
+        <div id="E-off-triangle-right-6"></div>
+        <div id="E-off-triangle-right-7"></div>
+        <div id="E-off-triangle-up-3"></div>
+        <div id="E-off-triangle-left-7"></div>
+        <div id="E-off-triangle-up-4"></div>
+        <div id="E-off-triangle-down-5"></div>
+        <div id="E-off-triangle-up-5"></div>
       </div>
-      <div class="M">
-        <div id="M-triangle-down-1"></div>
-        <div id="M-triangle-down-2"></div>
-        <div id="M-triangle-down-3"></div>
+
+      <div class="E-on">
+        <div id="E-off-triangle-right-1"></div>
+        <div id="E-off-triangle-down-1"></div>
+        <div id="E-off-triangle-up-1"></div>
+        <div id="E-off-triangle-down-2"></div>
+        <div id="E-off-triangle-left-1"></div>
+        <div id="E-off-triangle-left-2"></div>
+        <div id="E-on-triangle-right-2"></div>
+        <div id="E-on-triangle-down-3"></div>
+        <div id="E-off-triangle-left-3"></div>
+        <div id="E-off-triangle-right-3"></div>
+        <div id="E-off-triangle-right-4"></div>
+        <div id="E-on-triangle-up-2"></div>
+        <div id="E-off-triangle-left-4"></div>
+        <div id="E-off-triangle-left-5"></div>
+        <div id="E-on-triangle-right-5"></div>
+        <div id="E-on-triangle-down-4"></div>
+        <div id="E-off-triangle-left-6"></div>
+        <div id="E-off-triangle-right-6"></div>
+        <div id="E-off-triangle-right-7"></div>
+        <div id="E-on-triangle-up-3"></div>
+        <div id="E-off-triangle-left-7"></div>
+        <div id="E-off-triangle-up-4"></div>
+        <div id="E-off-triangle-down-5"></div>
+        <div id="E-off-triangle-up-5"></div>
       </div>
-      <div class="N">
-        <div id="N-triangle-down-1"></div>
-        <div id="N-triangle-down-2"></div>
+
+      <div class="F-off">
+        <div id="F-off-triangle-right-1"></div>
+        <div id="F-off-triangle-down-1"></div>
+        <div id="F-off-triangle-up-1"></div>
+        <div id="F-off-triangle-down-2"></div>
+        <div id="F-off-triangle-left-1"></div>
+        <div id="F-off-triangle-left-2"></div>
+        <div id="F-off-triangle-right-2"></div>
+        <div id="F-off-triangle-down-3"></div>
+        <div id="F-off-triangle-left-3"></div>
+        <div id="F-off-triangle-right-3"></div>
+        <div id="F-off-triangle-right-4"></div>
+        <div id="F-off-triangle-up-2"></div>
+        <div id="F-off-triangle-left-4"></div>
+        <div id="F-off-triangle-left-5"></div>
+        <div id="F-off-triangle-right-5"></div>
+        <div id="F-off-triangle-down-4"></div>
+        <div id="F-off-triangle-left-6"></div>
+        <div id="F-off-triangle-right-6"></div>
+        <div id="F-off-triangle-right-7"></div>
+        <div id="F-off-triangle-up-3"></div>
+        <div id="F-off-triangle-left-7"></div>
+        <div id="F-off-triangle-up-4"></div>
+        <div id="F-off-triangle-down-5"></div>
+        <div id="F-off-triangle-up-5"></div>
       </div>
-      <div class="O">
-        <div class="O-left">
-          <div id="O-triangle-topleft"></div>
-          <div id="O-triangle-bottomleft"></div>
-        </div>
-        <div class="O-right">
-          <div id="O-triangle-topright"></div>
-          <div id="O-triangle-bottomright"></div>
-        </div>
+
+      <div class="F-on">
+        <div id="F-off-triangle-right-1"></div>
+        <div id="F-off-triangle-down-1"></div>
+        <div id="F-off-triangle-up-1"></div>
+        <div id="F-off-triangle-down-2"></div>
+        <div id="F-off-triangle-left-1"></div>
+        <div id="F-off-triangle-left-2"></div>
+        <div id="F-on-triangle-right-2"></div>
+        <div id="F-on-triangle-down-3"></div>
+        <div id="F-off-triangle-left-3"></div>
+        <div id="F-off-triangle-right-3"></div>
+        <div id="F-off-triangle-right-4"></div>
+        <div id="F-on-triangle-up-2"></div>
+        <div id="F-off-triangle-left-4"></div>
+        <div id="F-off-triangle-left-5"></div>
+        <div id="F-on-triangle-right-5"></div>
+        <div id="F-on-triangle-down-4"></div>
+        <div id="F-off-triangle-left-6"></div>
+        <div id="F-off-triangle-right-6"></div>
+        <div id="F-off-triangle-right-7"></div>
+        <div id="F-off-triangle-up-3"></div>
+        <div id="F-off-triangle-left-7"></div>
+        <div id="F-off-triangle-up-4"></div>
+        <div id="F-off-triangle-down-5"></div>
+        <div id="F-off-triangle-up-5"></div>
       </div>
-      <div class="P">
-        <div id="P-triangle-left"></div>
-        <div id="P-triangle-up"></div>
+
+      <div class="G-off">
+        <div id="G-off-triangle-right-1"></div>
+        <div id="G-off-triangle-down-1"></div>
+        <div id="G-off-triangle-up-1"></div>
+        <div id="G-off-triangle-down-2"></div>
+        <div id="G-off-triangle-left-1"></div>
+        <div id="G-off-triangle-left-2"></div>
+        <div id="G-off-triangle-right-2"></div>
+        <div id="G-off-triangle-down-3"></div>
+        <div id="G-off-triangle-left-3"></div>
+        <div id="G-off-triangle-right-3"></div>
+        <div id="G-off-triangle-right-4"></div>
+        <div id="G-off-triangle-up-2"></div>
+        <div id="G-off-triangle-left-4"></div>
+        <div id="G-off-triangle-left-5"></div>
+        <div id="G-off-triangle-right-5"></div>
+        <div id="G-off-triangle-down-4"></div>
+        <div id="G-off-triangle-left-6"></div>
+        <div id="G-off-triangle-right-6"></div>
+        <div id="G-off-triangle-right-7"></div>
+        <div id="G-off-triangle-up-3"></div>
+        <div id="G-off-triangle-left-7"></div>
+        <div id="G-off-triangle-up-4"></div>
+        <div id="G-off-triangle-down-5"></div>
+        <div id="G-off-triangle-up-5"></div>
       </div>
-      <div class="Q-wrapper">
-        <div class="Q">
-          <div id="Q-triangle-topleft"></div>
-          <div id="Q-triangle-bottomleft"></div>
-        </div>
-        <div class="Q-middle">
-          <div id="G-triangle-up"></div>
-        </div>
-        <div class="Q">
-          <div id="Q-triangle-topright"></div>
-          <div id="Q-triangle-bottomright"></div>
-        </div>
+
+      <div class="G-on">
+        <div id="G-off-triangle-right-1"></div>
+        <div id="G-off-triangle-down-1"></div>
+        <div id="G-off-triangle-up-1"></div>
+        <div id="G-off-triangle-down-2"></div>
+        <div id="G-off-triangle-left-1"></div>
+        <div id="G-on-triangle-left-2"></div>
+        <div id="G-off-triangle-right-2"></div>
+        <div id="G-on-triangle-down-3"></div>
+        <div id="G-off-triangle-left-3"></div>
+        <div id="G-off-triangle-right-3"></div>
+        <div id="G-off-triangle-right-4"></div>
+        <div id="G-off-triangle-up-2"></div>
+        <div id="G-off-triangle-left-4"></div>
+        <div id="G-on-triangle-left-5"></div>
+        <div id="G-off-triangle-right-5"></div>
+        <div id="G-off-triangle-down-4"></div>
+        <div id="G-on-triangle-left-6"></div>
+        <div id="G-on-triangle-right-6"></div>
+        <div id="G-off-triangle-right-7"></div>
+        <div id="G-on-triangle-up-3"></div>
+        <div id="G-off-triangle-left-7"></div>
+        <div id="G-off-triangle-up-4"></div>
+        <div id="G-off-triangle-down-5"></div>
+        <div id="G-off-triangle-up-5"></div>
       </div>
-      <div class="R">
-        <div id="R-triangle-topleft"></div>
-        <div id="R-triangle-bottomleft"></div>
+
+      <div class="H-off">
+        <div id="H-off-triangle-right-1"></div>
+        <div id="H-off-triangle-down-1"></div>
+        <div id="H-off-triangle-up-1"></div>
+        <div id="H-off-triangle-down-2"></div>
+        <div id="H-off-triangle-left-1"></div>
+        <div id="H-off-triangle-left-2"></div>
+        <div id="H-off-triangle-right-2"></div>
+        <div id="H-off-triangle-down-3"></div>
+        <div id="H-off-triangle-left-3"></div>
+        <div id="H-off-triangle-right-3"></div>
+        <div id="H-off-triangle-right-4"></div>
+        <div id="H-off-triangle-up-2"></div>
+        <div id="H-off-triangle-left-4"></div>
+        <div id="H-off-triangle-left-5"></div>
+        <div id="H-off-triangle-right-5"></div>
+        <div id="H-off-triangle-down-4"></div>
+        <div id="H-off-triangle-left-6"></div>
+        <div id="H-off-triangle-right-6"></div>
+        <div id="H-off-triangle-right-7"></div>
+        <div id="H-off-triangle-up-3"></div>
+        <div id="H-off-triangle-left-7"></div>
+        <div id="H-off-triangle-up-4"></div>
+        <div id="H-off-triangle-down-5"></div>
+        <div id="H-off-triangle-up-5"></div>
       </div>
-      <div class="S">
-        <div class="S-1">
-          <div id="S-triangle-topleft"></div>
-        </div>
-        <div class="S-2">
-          <div id="S-triangle-bottomright"></div>
-        </div>
+
+      <div class="H-on">
+        <div id="H-off-triangle-right-1"></div>
+        <div id="H-off-triangle-down-1"></div>
+        <div id="H-off-triangle-up-1"></div>
+        <div id="H-off-triangle-down-2"></div>
+        <div id="H-off-triangle-left-1"></div>
+        <div id="H-on-triangle-left-2"></div>
+        <div id="H-off-triangle-right-2"></div>
+        <div id="H-off-triangle-down-3"></div>
+        <div id="H-off-triangle-left-3"></div>
+        <div id="H-on-triangle-right-3"></div>
+        <div id="H-off-triangle-right-4"></div>
+        <div id="H-off-triangle-up-2"></div>
+        <div id="H-off-triangle-left-4"></div>
+        <div id="H-on-triangle-left-5"></div>
+        <div id="H-off-triangle-right-5"></div>
+        <div id="H-on-triangle-down-4"></div>
+        <div id="H-off-triangle-left-6"></div>
+        <div id="H-on-triangle-right-6"></div>
+        <div id="H-off-triangle-right-7"></div>
+        <div id="H-off-triangle-up-3"></div>
+        <div id="H-off-triangle-left-7"></div>
+        <div id="H-off-triangle-up-4"></div>
+        <div id="H-off-triangle-down-5"></div>
+        <div id="H-off-triangle-up-5"></div>
       </div>
-      <div class="T">
-        <div id="T-triangle-topleft"></div>
-        <div id="T-triangle-up"></div>
-        <div id="T-triangle-topright"></div>
+
+      <div class="I-off">
+        <div id="I-off-triangle-right-1"></div>
+        <div id="I-off-triangle-down-1"></div>
+        <div id="I-off-triangle-up-1"></div>
+        <div id="I-off-triangle-down-2"></div>
+        <div id="I-off-triangle-left-1"></div>
+        <div id="I-off-triangle-left-2"></div>
+        <div id="I-off-triangle-right-2"></div>
+        <div id="I-off-triangle-down-3"></div>
+        <div id="I-off-triangle-left-3"></div>
+        <div id="I-off-triangle-right-3"></div>
+        <div id="I-off-triangle-right-4"></div>
+        <div id="I-off-triangle-up-2"></div>
+        <div id="I-off-triangle-left-4"></div>
+        <div id="I-off-triangle-left-5"></div>
+        <div id="I-off-triangle-right-5"></div>
+        <div id="I-off-triangle-down-4"></div>
+        <div id="I-off-triangle-left-6"></div>
+        <div id="I-off-triangle-right-6"></div>
+        <div id="I-off-triangle-right-7"></div>
+        <div id="I-off-triangle-up-3"></div>
+        <div id="I-off-triangle-left-7"></div>
+        <div id="I-off-triangle-up-4"></div>
+        <div id="I-off-triangle-down-5"></div>
+        <div id="I-off-triangle-up-5"></div>
       </div>
-      <div class="U">
-        <div id="U-triangle-bottomleft"></div>
-        <div id="U-triangle-bottomright"></div>
+
+      <div class="I-on">
+        <div id="I-off-triangle-right-1"></div>
+        <div id="I-off-triangle-down-1"></div>
+        <div id="I-off-triangle-up-1"></div>
+        <div id="I-off-triangle-down-2"></div>
+        <div id="I-off-triangle-left-1"></div>
+        <div id="I-on-triangle-left-2"></div>
+        <div id="I-off-triangle-right-2"></div>
+        <div id="I-off-triangle-down-3"></div>
+        <div id="I-off-triangle-left-3"></div>
+        <div id="I-off-triangle-right-3"></div>
+        <div id="I-off-triangle-right-4"></div>
+        <div id="I-off-triangle-up-2"></div>
+        <div id="I-off-triangle-left-4"></div>
+        <div id="I-off-triangle-left-5"></div>
+        <div id="I-on-triangle-right-5"></div>
+        <div id="I-off-triangle-down-4"></div>
+        <div id="I-off-triangle-left-6"></div>
+        <div id="I-off-triangle-right-6"></div>
+        <div id="I-off-triangle-right-7"></div>
+        <div id="I-off-triangle-up-3"></div>
+        <div id="I-off-triangle-left-7"></div>
+        <div id="I-off-triangle-up-4"></div>
+        <div id="I-off-triangle-down-5"></div>
+        <div id="I-off-triangle-up-5"></div>
       </div>
-      <div class="V">
-        <div id="V-triangle-bottomleft"></div>
-        <div id="V-triangle-bottomright"></div>
+
+      <div class="J-off">
+        <div id="J-off-triangle-right-1"></div>
+        <div id="J-off-triangle-down-1"></div>
+        <div id="J-off-triangle-up-1"></div>
+        <div id="J-off-triangle-down-2"></div>
+        <div id="J-off-triangle-left-1"></div>
+        <div id="J-off-triangle-left-2"></div>
+        <div id="J-off-triangle-right-2"></div>
+        <div id="J-off-triangle-down-3"></div>
+        <div id="J-off-triangle-left-3"></div>
+        <div id="J-off-triangle-right-3"></div>
+        <div id="J-off-triangle-right-4"></div>
+        <div id="J-off-triangle-up-2"></div>
+        <div id="J-off-triangle-left-4"></div>
+        <div id="J-off-triangle-left-5"></div>
+        <div id="J-off-triangle-right-5"></div>
+        <div id="J-off-triangle-down-4"></div>
+        <div id="J-off-triangle-left-6"></div>
+        <div id="J-off-triangle-right-6"></div>
+        <div id="J-off-triangle-right-7"></div>
+        <div id="J-off-triangle-up-3"></div>
+        <div id="J-off-triangle-left-7"></div>
+        <div id="J-off-triangle-up-4"></div>
+        <div id="J-off-triangle-down-5"></div>
+        <div id="J-off-triangle-up-5"></div>
       </div>
-      <div class="W">
-        <div id="W-triangle-down-1"></div>
-        <div id="W-triangle-down-2"></div>
-        <div id="W-triangle-down-3"></div>
+
+      <div class="J-on">
+        <div id="J-off-triangle-right-1"></div>
+        <div id="J-off-triangle-down-1"></div>
+        <div id="J-off-triangle-up-1"></div>
+        <div id="J-off-triangle-down-2"></div>
+        <div id="J-off-triangle-left-1"></div>
+        <div id="J-off-triangle-left-2"></div>
+        <div id="J-off-triangle-right-2"></div>
+        <div id="J-on-triangle-down-3"></div>
+        <div id="J-on-triangle-left-3"></div>
+        <div id="J-off-triangle-right-3"></div>
+        <div id="J-off-triangle-right-4"></div>
+        <div id="J-off-triangle-up-2"></div>
+        <div id="J-off-triangle-left-4"></div>
+        <div id="J-on-triangle-left-5"></div>
+        <div id="J-off-triangle-right-5"></div>
+        <div id="J-off-triangle-down-4"></div>
+        <div id="J-off-triangle-left-6"></div>
+        <div id="J-on-triangle-right-6"></div>
+        <div id="J-off-triangle-right-7"></div>
+        <div id="J-on-triangle-up-3"></div>
+        <div id="J-off-triangle-left-7"></div>
+        <div id="J-off-triangle-up-4"></div>
+        <div id="J-off-triangle-down-5"></div>
+        <div id="J-off-triangle-up-5"></div>
       </div>
-      <div class="X">
-        <div id="X-triangle-right"></div>
-        <div id="X-triangle-left"></div>
+
+      <div class="K-off">
+        <div id="K-off-triangle-right-1"></div>
+        <div id="K-off-triangle-down-1"></div>
+        <div id="K-off-triangle-up-1"></div>
+        <div id="K-off-triangle-down-2"></div>
+        <div id="K-off-triangle-left-1"></div>
+        <div id="K-off-triangle-left-2"></div>
+        <div id="K-off-triangle-right-2"></div>
+        <div id="K-off-triangle-down-3"></div>
+        <div id="K-off-triangle-left-3"></div>
+        <div id="K-off-triangle-right-3"></div>
+        <div id="K-off-triangle-right-4"></div>
+        <div id="K-off-triangle-up-2"></div>
+        <div id="K-off-triangle-left-4"></div>
+        <div id="K-off-triangle-left-5"></div>
+        <div id="K-off-triangle-right-5"></div>
+        <div id="K-off-triangle-down-4"></div>
+        <div id="K-off-triangle-left-6"></div>
+        <div id="K-off-triangle-right-6"></div>
+        <div id="K-off-triangle-right-7"></div>
+        <div id="K-off-triangle-up-3"></div>
+        <div id="K-off-triangle-left-7"></div>
+        <div id="K-off-triangle-up-4"></div>
+        <div id="K-off-triangle-down-5"></div>
+        <div id="K-off-triangle-up-5"></div>
       </div>
-      <div class="Y">
-        <div id="Y-triangle-down"></div>
-        <div id="Y-triangle-up"></div>
+
+      <div class="K-on">
+        <div id="K-off-triangle-right-1"></div>
+        <div id="K-off-triangle-down-1"></div>
+        <div id="K-on-triangle-up-1"></div>
+        <div id="K-off-triangle-down-2"></div>
+        <div id="K-off-triangle-left-1"></div>
+        <div id="K-off-triangle-left-2"></div>
+        <div id="K-on-triangle-right-2"></div>
+        <div id="K-off-triangle-down-3"></div>
+        <div id="K-off-triangle-left-3"></div>
+        <div id="K-off-triangle-right-3"></div>
+        <div id="K-off-triangle-right-4"></div>
+        <div id="K-off-triangle-up-2"></div>
+        <div id="K-off-triangle-left-4"></div>
+        <div id="K-off-triangle-left-5"></div>
+        <div id="K-on-triangle-right-5"></div>
+        <div id="K-on-triangle-down-4"></div>
+        <div id="K-off-triangle-left-6"></div>
+        <div id="K-on-triangle-right-6"></div>
+        <div id="K-off-triangle-right-7"></div>
+        <div id="K-off-triangle-up-3"></div>
+        <div id="K-off-triangle-left-7"></div>
+        <div id="K-off-triangle-up-4"></div>
+        <div id="K-off-triangle-down-5"></div>
+        <div id="K-off-triangle-up-5"></div>
       </div>
-      <div class="Z">
-        <div class="Z-1">
-          <div id="Z-triangle-topright"></div>
-        </div>
-        <div class="Z-2">
-          <div id="Z-triangle-bottomleft"></div>
-        </div>
+
+      <div class="L-off">
+        <div id="L-off-triangle-right-1"></div>
+        <div id="L-off-triangle-down-1"></div>
+        <div id="L-off-triangle-up-1"></div>
+        <div id="L-off-triangle-down-2"></div>
+        <div id="L-off-triangle-left-1"></div>
+        <div id="L-off-triangle-left-2"></div>
+        <div id="L-off-triangle-right-2"></div>
+        <div id="L-off-triangle-down-3"></div>
+        <div id="L-off-triangle-left-3"></div>
+        <div id="L-off-triangle-right-3"></div>
+        <div id="L-off-triangle-right-4"></div>
+        <div id="L-off-triangle-up-2"></div>
+        <div id="L-off-triangle-left-4"></div>
+        <div id="L-off-triangle-left-5"></div>
+        <div id="L-off-triangle-right-5"></div>
+        <div id="L-off-triangle-down-4"></div>
+        <div id="L-off-triangle-left-6"></div>
+        <div id="L-off-triangle-right-6"></div>
+        <div id="L-off-triangle-right-7"></div>
+        <div id="L-off-triangle-up-3"></div>
+        <div id="L-off-triangle-left-7"></div>
+        <div id="L-off-triangle-up-4"></div>
+        <div id="L-off-triangle-down-5"></div>
+        <div id="L-off-triangle-up-5"></div>
+      </div>
+
+      <div class="L-on">
+        <div id="L-off-triangle-right-1"></div>
+        <div id="L-off-triangle-down-1"></div>
+        <div id="L-off-triangle-up-1"></div>
+        <div id="L-off-triangle-down-2"></div>
+        <div id="L-off-triangle-left-1"></div>
+        <div id="L-on-triangle-left-2"></div>
+        <div id="L-off-triangle-right-2"></div>
+        <div id="L-off-triangle-down-3"></div>
+        <div id="L-off-triangle-left-3"></div>
+        <div id="L-off-triangle-right-3"></div>
+        <div id="L-off-triangle-right-4"></div>
+        <div id="L-off-triangle-up-2"></div>
+        <div id="L-off-triangle-left-4"></div>
+        <div id="L-on-triangle-left-5"></div>
+        <div id="L-off-triangle-right-5"></div>
+        <div id="L-off-triangle-down-4"></div>
+        <div id="L-off-triangle-left-6"></div>
+        <div id="L-off-triangle-right-6"></div>
+        <div id="L-off-triangle-right-7"></div>
+        <div id="L-on-triangle-up-3"></div>
+        <div id="L-off-triangle-left-7"></div>
+        <div id="L-off-triangle-up-4"></div>
+        <div id="L-off-triangle-down-5"></div>
+        <div id="L-off-triangle-up-5"></div>
+      </div>
+
+      <div class="M-off">
+        <div id="M-off-triangle-right-1"></div>
+        <div id="M-off-triangle-down-1"></div>
+        <div id="M-off-triangle-up-1"></div>
+        <div id="M-off-triangle-down-2"></div>
+        <div id="M-off-triangle-left-1"></div>
+        <div id="M-off-triangle-left-2"></div>
+        <div id="M-off-triangle-right-2"></div>
+        <div id="M-off-triangle-down-3"></div>
+        <div id="M-off-triangle-left-3"></div>
+        <div id="M-off-triangle-right-3"></div>
+        <div id="M-off-triangle-right-4"></div>
+        <div id="M-off-triangle-up-2"></div>
+        <div id="M-off-triangle-left-4"></div>
+        <div id="M-off-triangle-left-5"></div>
+        <div id="M-off-triangle-right-5"></div>
+        <div id="M-off-triangle-down-4"></div>
+        <div id="M-off-triangle-left-6"></div>
+        <div id="M-off-triangle-right-6"></div>
+        <div id="M-off-triangle-right-7"></div>
+        <div id="M-off-triangle-up-3"></div>
+        <div id="M-off-triangle-left-7"></div>
+        <div id="M-off-triangle-up-4"></div>
+        <div id="M-off-triangle-down-5"></div>
+        <div id="M-off-triangle-up-5"></div>
+      </div>
+
+      <div class="M-on">
+        <div id="M-off-triangle-right-1"></div>
+        <div id="M-off-triangle-down-1"></div>
+        <div id="M-off-triangle-up-1"></div>
+        <div id="M-off-triangle-down-2"></div>
+        <div id="M-off-triangle-left-1"></div>
+        <div id="M-off-triangle-left-2"></div>
+        <div id="M-off-triangle-right-2"></div>
+        <div id="M-off-triangle-down-3"></div>
+        <div id="M-off-triangle-left-3"></div>
+        <div id="M-off-triangle-right-3"></div>
+        <div id="M-on-triangle-right-4"></div>
+        <div id="M-off-triangle-up-2"></div>
+        <div id="M-on-triangle-left-4"></div>
+        <div id="M-off-triangle-left-5"></div>
+        <div id="M-on-triangle-right-5"></div>
+        <div id="M-off-triangle-down-4"></div>
+        <div id="M-on-triangle-left-6"></div>
+        <div id="M-off-triangle-right-6"></div>
+        <div id="M-on-triangle-right-7"></div>
+        <div id="M-off-triangle-up-3"></div>
+        <div id="M-on-triangle-left-7"></div>
+        <div id="M-off-triangle-up-4"></div>
+        <div id="M-on-triangle-down-5"></div>
+        <div id="M-off-triangle-up-5"></div>
+      </div>
+
+      <div class="N-off">
+        <div id="N-off-triangle-right-1"></div>
+        <div id="N-off-triangle-down-1"></div>
+        <div id="N-off-triangle-up-1"></div>
+        <div id="N-off-triangle-down-2"></div>
+        <div id="N-off-triangle-left-1"></div>
+        <div id="N-off-triangle-left-2"></div>
+        <div id="N-off-triangle-right-2"></div>
+        <div id="N-off-triangle-down-3"></div>
+        <div id="N-off-triangle-left-3"></div>
+        <div id="N-off-triangle-right-3"></div>
+        <div id="N-off-triangle-right-4"></div>
+        <div id="N-off-triangle-up-2"></div>
+        <div id="N-off-triangle-left-4"></div>
+        <div id="N-off-triangle-left-5"></div>
+        <div id="N-off-triangle-right-5"></div>
+        <div id="N-off-triangle-down-4"></div>
+        <div id="N-off-triangle-left-6"></div>
+        <div id="N-off-triangle-right-6"></div>
+        <div id="N-off-triangle-right-7"></div>
+        <div id="N-off-triangle-up-3"></div>
+        <div id="N-off-triangle-left-7"></div>
+        <div id="N-off-triangle-up-4"></div>
+        <div id="N-off-triangle-down-5"></div>
+        <div id="N-off-triangle-up-5"></div>
+      </div>
+
+      <div class="N-on">
+        <div id="N-off-triangle-right-1"></div>
+        <div id="N-off-triangle-down-1"></div>
+        <div id="N-off-triangle-up-1"></div>
+        <div id="N-off-triangle-down-2"></div>
+        <div id="N-off-triangle-left-1"></div>
+        <div id="N-off-triangle-left-2"></div>
+        <div id="N-on-triangle-right-2"></div>
+        <div id="N-off-triangle-down-3"></div>
+        <div id="N-off-triangle-left-3"></div>
+        <div id="N-on-triangle-right-3"></div>
+        <div id="N-off-triangle-right-4"></div>
+        <div id="N-on-triangle-up-2"></div>
+        <div id="N-off-triangle-left-4"></div>
+        <div id="N-on-triangle-left-5"></div>
+        <div id="N-off-triangle-right-5"></div>
+        <div id="N-off-triangle-down-4"></div>
+        <div id="N-off-triangle-left-6"></div>
+        <div id="N-on-triangle-right-6"></div>
+        <div id="N-off-triangle-right-7"></div>
+        <div id="N-off-triangle-up-3"></div>
+        <div id="N-off-triangle-left-7"></div>
+        <div id="N-off-triangle-up-4"></div>
+        <div id="N-off-triangle-down-5"></div>
+        <div id="N-off-triangle-up-5"></div>
+      </div>
+
+      <div class="O-off">
+        <div id="O-off-triangle-right-1"></div>
+        <div id="O-off-triangle-down-1"></div>
+        <div id="O-off-triangle-up-1"></div>
+        <div id="O-off-triangle-down-2"></div>
+        <div id="O-off-triangle-left-1"></div>
+        <div id="O-off-triangle-left-2"></div>
+        <div id="O-off-triangle-right-2"></div>
+        <div id="O-off-triangle-down-3"></div>
+        <div id="O-off-triangle-left-3"></div>
+        <div id="O-off-triangle-right-3"></div>
+        <div id="O-off-triangle-right-4"></div>
+        <div id="O-off-triangle-up-2"></div>
+        <div id="O-off-triangle-left-4"></div>
+        <div id="O-off-triangle-left-5"></div>
+        <div id="O-off-triangle-right-5"></div>
+        <div id="O-off-triangle-down-4"></div>
+        <div id="O-off-triangle-left-6"></div>
+        <div id="O-off-triangle-right-6"></div>
+        <div id="O-off-triangle-right-7"></div>
+        <div id="O-off-triangle-up-3"></div>
+        <div id="O-off-triangle-left-7"></div>
+        <div id="O-off-triangle-up-4"></div>
+        <div id="O-off-triangle-down-5"></div>
+        <div id="O-off-triangle-up-5"></div>
+      </div>
+
+      <div class="O-on">
+        <div id="O-off-triangle-right-1"></div>
+        <div id="O-off-triangle-down-1"></div>
+        <div id="O-off-triangle-up-1"></div>
+        <div id="O-off-triangle-down-2"></div>
+        <div id="O-off-triangle-left-1"></div>
+        <div id="O-off-triangle-left-2"></div>
+        <div id="O-off-triangle-right-2"></div>
+        <div id="O-off-triangle-down-3"></div>
+        <div id="O-off-triangle-left-3"></div>
+        <div id="O-off-triangle-right-3"></div>
+        <div id="O-off-triangle-right-4"></div>
+        <div id="O-off-triangle-up-2"></div>
+        <div id="O-off-triangle-left-4"></div>
+        <div id="O-off-triangle-left-5"></div>
+        <div id="O-off-triangle-right-5"></div>
+        <div id="O-off-triangle-down-4"></div>
+        <div id="O-off-triangle-left-6"></div>
+        <div id="O-off-triangle-right-6"></div>
+        <div id="O-off-triangle-right-7"></div>
+        <div id="O-off-triangle-up-3"></div>
+        <div id="O-off-triangle-left-7"></div>
+        <div id="O-off-triangle-up-4"></div>
+        <div id="O-off-triangle-down-5"></div>
+        <div id="O-off-triangle-up-5"></div>
+      </div>
+
+      <div class="P-off">
+        <div id="P-off-triangle-right-1"></div>
+        <div id="P-off-triangle-down-1"></div>
+        <div id="P-off-triangle-up-1"></div>
+        <div id="P-off-triangle-down-2"></div>
+        <div id="P-off-triangle-left-1"></div>
+        <div id="P-off-triangle-left-2"></div>
+        <div id="P-off-triangle-right-2"></div>
+        <div id="P-off-triangle-down-3"></div>
+        <div id="P-off-triangle-left-3"></div>
+        <div id="P-off-triangle-right-3"></div>
+        <div id="P-off-triangle-right-4"></div>
+        <div id="P-off-triangle-up-2"></div>
+        <div id="P-off-triangle-left-4"></div>
+        <div id="P-off-triangle-left-5"></div>
+        <div id="P-off-triangle-right-5"></div>
+        <div id="P-off-triangle-down-4"></div>
+        <div id="P-off-triangle-left-6"></div>
+        <div id="P-off-triangle-right-6"></div>
+        <div id="P-off-triangle-right-7"></div>
+        <div id="P-off-triangle-up-3"></div>
+        <div id="P-off-triangle-left-7"></div>
+        <div id="P-off-triangle-up-4"></div>
+        <div id="P-off-triangle-down-5"></div>
+        <div id="P-off-triangle-up-5"></div>
+      </div>
+
+      <div class="P-on">
+        <div id="P-off-triangle-right-1"></div>
+        <div id="P-off-triangle-down-1"></div>
+        <div id="P-off-triangle-up-1"></div>
+        <div id="P-off-triangle-down-2"></div>
+        <div id="P-off-triangle-left-1"></div>
+        <div id="P-off-triangle-left-2"></div>
+        <div id="P-off-triangle-right-2"></div>
+        <div id="P-off-triangle-down-3"></div>
+        <div id="P-off-triangle-left-3"></div>
+        <div id="P-off-triangle-right-3"></div>
+        <div id="P-off-triangle-right-4"></div>
+        <div id="P-off-triangle-up-2"></div>
+        <div id="P-off-triangle-left-4"></div>
+        <div id="P-off-triangle-left-5"></div>
+        <div id="P-off-triangle-right-5"></div>
+        <div id="P-off-triangle-down-4"></div>
+        <div id="P-off-triangle-left-6"></div>
+        <div id="P-off-triangle-right-6"></div>
+        <div id="P-off-triangle-right-7"></div>
+        <div id="P-off-triangle-up-3"></div>
+        <div id="P-off-triangle-left-7"></div>
+        <div id="P-off-triangle-up-4"></div>
+        <div id="P-off-triangle-down-5"></div>
+        <div id="P-off-triangle-up-5"></div>
+      </div>
+
+      <div class="Q-off">
+        <div id="Q-off-triangle-right-1"></div>
+        <div id="Q-off-triangle-down-1"></div>
+        <div id="Q-off-triangle-up-1"></div>
+        <div id="Q-off-triangle-down-2"></div>
+        <div id="Q-off-triangle-left-1"></div>
+        <div id="Q-off-triangle-left-2"></div>
+        <div id="Q-off-triangle-right-2"></div>
+        <div id="Q-off-triangle-down-3"></div>
+        <div id="Q-off-triangle-left-3"></div>
+        <div id="Q-off-triangle-right-3"></div>
+        <div id="Q-off-triangle-right-4"></div>
+        <div id="Q-off-triangle-up-2"></div>
+        <div id="Q-off-triangle-left-4"></div>
+        <div id="Q-off-triangle-left-5"></div>
+        <div id="Q-off-triangle-right-5"></div>
+        <div id="Q-off-triangle-down-4"></div>
+        <div id="Q-off-triangle-left-6"></div>
+        <div id="Q-off-triangle-right-6"></div>
+        <div id="Q-off-triangle-right-7"></div>
+        <div id="Q-off-triangle-up-3"></div>
+        <div id="Q-off-triangle-left-7"></div>
+        <div id="Q-off-triangle-up-4"></div>
+        <div id="Q-off-triangle-down-5"></div>
+        <div id="Q-off-triangle-up-5"></div>
+      </div>
+
+      <div class="Q-on">
+        <div id="Q-off-triangle-right-1"></div>
+        <div id="Q-off-triangle-down-1"></div>
+        <div id="Q-off-triangle-up-1"></div>
+        <div id="Q-off-triangle-down-2"></div>
+        <div id="Q-off-triangle-left-1"></div>
+        <div id="Q-off-triangle-left-2"></div>
+        <div id="Q-off-triangle-right-2"></div>
+        <div id="Q-off-triangle-down-3"></div>
+        <div id="Q-off-triangle-left-3"></div>
+        <div id="Q-off-triangle-right-3"></div>
+        <div id="Q-off-triangle-right-4"></div>
+        <div id="Q-off-triangle-up-2"></div>
+        <div id="Q-off-triangle-left-4"></div>
+        <div id="Q-off-triangle-left-5"></div>
+        <div id="Q-off-triangle-right-5"></div>
+        <div id="Q-off-triangle-down-4"></div>
+        <div id="Q-off-triangle-left-6"></div>
+        <div id="Q-off-triangle-right-6"></div>
+        <div id="Q-off-triangle-right-7"></div>
+        <div id="Q-off-triangle-up-3"></div>
+        <div id="Q-off-triangle-left-7"></div>
+        <div id="Q-off-triangle-up-4"></div>
+        <div id="Q-off-triangle-down-5"></div>
+        <div id="Q-off-triangle-up-5"></div>
+      </div>
+
+      <div class="R-off">
+        <div id="R-off-triangle-right-1"></div>
+        <div id="R-off-triangle-down-1"></div>
+        <div id="R-off-triangle-up-1"></div>
+        <div id="R-off-triangle-down-2"></div>
+        <div id="R-off-triangle-left-1"></div>
+        <div id="R-off-triangle-left-2"></div>
+        <div id="R-off-triangle-right-2"></div>
+        <div id="R-off-triangle-down-3"></div>
+        <div id="R-off-triangle-left-3"></div>
+        <div id="R-off-triangle-right-3"></div>
+        <div id="R-off-triangle-right-4"></div>
+        <div id="R-off-triangle-up-2"></div>
+        <div id="R-off-triangle-left-4"></div>
+        <div id="R-off-triangle-left-5"></div>
+        <div id="R-off-triangle-right-5"></div>
+        <div id="R-off-triangle-down-4"></div>
+        <div id="R-off-triangle-left-6"></div>
+        <div id="R-off-triangle-right-6"></div>
+        <div id="R-off-triangle-right-7"></div>
+        <div id="R-off-triangle-up-3"></div>
+        <div id="R-off-triangle-left-7"></div>
+        <div id="R-off-triangle-up-4"></div>
+        <div id="R-off-triangle-down-5"></div>
+        <div id="R-off-triangle-up-5"></div>
+      </div>
+
+      <div class="R-on">
+        <div id="R-off-triangle-right-1"></div>
+        <div id="R-off-triangle-down-1"></div>
+        <div id="R-off-triangle-up-1"></div>
+        <div id="R-off-triangle-down-2"></div>
+        <div id="R-off-triangle-left-1"></div>
+        <div id="R-off-triangle-left-2"></div>
+        <div id="R-off-triangle-right-2"></div>
+        <div id="R-off-triangle-down-3"></div>
+        <div id="R-off-triangle-left-3"></div>
+        <div id="R-off-triangle-right-3"></div>
+        <div id="R-off-triangle-right-4"></div>
+        <div id="R-off-triangle-up-2"></div>
+        <div id="R-off-triangle-left-4"></div>
+        <div id="R-off-triangle-left-5"></div>
+        <div id="R-off-triangle-right-5"></div>
+        <div id="R-off-triangle-down-4"></div>
+        <div id="R-off-triangle-left-6"></div>
+        <div id="R-off-triangle-right-6"></div>
+        <div id="R-off-triangle-right-7"></div>
+        <div id="R-off-triangle-up-3"></div>
+        <div id="R-off-triangle-left-7"></div>
+        <div id="R-off-triangle-up-4"></div>
+        <div id="R-off-triangle-down-5"></div>
+        <div id="R-off-triangle-up-5"></div>
+      </div>
+
+      <div class="S-off">
+        <div id="S-off-triangle-right-1"></div>
+        <div id="S-off-triangle-down-1"></div>
+        <div id="S-off-triangle-up-1"></div>
+        <div id="S-off-triangle-down-2"></div>
+        <div id="S-off-triangle-left-1"></div>
+        <div id="S-off-triangle-left-2"></div>
+        <div id="S-off-triangle-right-2"></div>
+        <div id="S-off-triangle-down-3"></div>
+        <div id="S-off-triangle-left-3"></div>
+        <div id="S-off-triangle-right-3"></div>
+        <div id="S-off-triangle-right-4"></div>
+        <div id="S-off-triangle-up-2"></div>
+        <div id="S-off-triangle-left-4"></div>
+        <div id="S-off-triangle-left-5"></div>
+        <div id="S-off-triangle-right-5"></div>
+        <div id="S-off-triangle-down-4"></div>
+        <div id="S-off-triangle-left-6"></div>
+        <div id="S-off-triangle-right-6"></div>
+        <div id="S-off-triangle-right-7"></div>
+        <div id="S-off-triangle-up-3"></div>
+        <div id="S-off-triangle-left-7"></div>
+        <div id="S-off-triangle-up-4"></div>
+        <div id="S-off-triangle-down-5"></div>
+        <div id="S-off-triangle-up-5"></div>
+      </div>
+
+      <div class="S-on">
+        <div id="S-off-triangle-right-1"></div>
+        <div id="S-off-triangle-down-1"></div>
+        <div id="S-off-triangle-up-1"></div>
+        <div id="S-off-triangle-down-2"></div>
+        <div id="S-off-triangle-left-1"></div>
+        <div id="S-off-triangle-left-2"></div>
+        <div id="S-off-triangle-right-2"></div>
+        <div id="S-off-triangle-down-3"></div>
+        <div id="S-off-triangle-left-3"></div>
+        <div id="S-off-triangle-right-3"></div>
+        <div id="S-off-triangle-right-4"></div>
+        <div id="S-off-triangle-up-2"></div>
+        <div id="S-off-triangle-left-4"></div>
+        <div id="S-off-triangle-left-5"></div>
+        <div id="S-off-triangle-right-5"></div>
+        <div id="S-off-triangle-down-4"></div>
+        <div id="S-off-triangle-left-6"></div>
+        <div id="S-off-triangle-right-6"></div>
+        <div id="S-off-triangle-right-7"></div>
+        <div id="S-off-triangle-up-3"></div>
+        <div id="S-off-triangle-left-7"></div>
+        <div id="S-off-triangle-up-4"></div>
+        <div id="S-off-triangle-down-5"></div>
+        <div id="S-off-triangle-up-5"></div>
+      </div>
+
+      <div class="T-off">
+        <div id="T-off-triangle-right-1"></div>
+        <div id="T-off-triangle-down-1"></div>
+        <div id="T-off-triangle-up-1"></div>
+        <div id="T-off-triangle-down-2"></div>
+        <div id="T-off-triangle-left-1"></div>
+        <div id="T-off-triangle-left-2"></div>
+        <div id="T-off-triangle-right-2"></div>
+        <div id="T-off-triangle-down-3"></div>
+        <div id="T-off-triangle-left-3"></div>
+        <div id="T-off-triangle-right-3"></div>
+        <div id="T-off-triangle-right-4"></div>
+        <div id="T-off-triangle-up-2"></div>
+        <div id="T-off-triangle-left-4"></div>
+        <div id="T-off-triangle-left-5"></div>
+        <div id="T-off-triangle-right-5"></div>
+        <div id="T-off-triangle-down-4"></div>
+        <div id="T-off-triangle-left-6"></div>
+        <div id="T-off-triangle-right-6"></div>
+        <div id="T-off-triangle-right-7"></div>
+        <div id="T-off-triangle-up-3"></div>
+        <div id="T-off-triangle-left-7"></div>
+        <div id="T-off-triangle-up-4"></div>
+        <div id="T-off-triangle-down-5"></div>
+        <div id="T-off-triangle-up-5"></div>
+      </div>
+
+      <div class="T-on">
+        <div id="T-off-triangle-right-1"></div>
+        <div id="T-off-triangle-down-1"></div>
+        <div id="T-off-triangle-up-1"></div>
+        <div id="T-off-triangle-down-2"></div>
+        <div id="T-off-triangle-left-1"></div>
+        <div id="T-off-triangle-left-2"></div>
+        <div id="T-off-triangle-right-2"></div>
+        <div id="T-off-triangle-down-3"></div>
+        <div id="T-off-triangle-left-3"></div>
+        <div id="T-off-triangle-right-3"></div>
+        <div id="T-off-triangle-right-4"></div>
+        <div id="T-off-triangle-up-2"></div>
+        <div id="T-off-triangle-left-4"></div>
+        <div id="T-off-triangle-left-5"></div>
+        <div id="T-off-triangle-right-5"></div>
+        <div id="T-off-triangle-down-4"></div>
+        <div id="T-off-triangle-left-6"></div>
+        <div id="T-off-triangle-right-6"></div>
+        <div id="T-off-triangle-right-7"></div>
+        <div id="T-off-triangle-up-3"></div>
+        <div id="T-off-triangle-left-7"></div>
+        <div id="T-off-triangle-up-4"></div>
+        <div id="T-off-triangle-down-5"></div>
+        <div id="T-off-triangle-up-5"></div>
+      </div>
+
+      <div class="U-off">
+        <div id="U-off-triangle-right-1"></div>
+        <div id="U-off-triangle-down-1"></div>
+        <div id="U-off-triangle-up-1"></div>
+        <div id="U-off-triangle-down-2"></div>
+        <div id="U-off-triangle-left-1"></div>
+        <div id="U-off-triangle-left-2"></div>
+        <div id="U-off-triangle-right-2"></div>
+        <div id="U-off-triangle-down-3"></div>
+        <div id="U-off-triangle-left-3"></div>
+        <div id="U-off-triangle-right-3"></div>
+        <div id="U-off-triangle-right-4"></div>
+        <div id="U-off-triangle-up-2"></div>
+        <div id="U-off-triangle-left-4"></div>
+        <div id="U-off-triangle-left-5"></div>
+        <div id="U-off-triangle-right-5"></div>
+        <div id="U-off-triangle-down-4"></div>
+        <div id="U-off-triangle-left-6"></div>
+        <div id="U-off-triangle-right-6"></div>
+        <div id="U-off-triangle-right-7"></div>
+        <div id="U-off-triangle-up-3"></div>
+        <div id="U-off-triangle-left-7"></div>
+        <div id="U-off-triangle-up-4"></div>
+        <div id="U-off-triangle-down-5"></div>
+        <div id="U-off-triangle-up-5"></div>
+      </div>
+
+      <div class="U-on">
+        <div id="U-off-triangle-right-1"></div>
+        <div id="U-off-triangle-down-1"></div>
+        <div id="U-off-triangle-up-1"></div>
+        <div id="U-off-triangle-down-2"></div>
+        <div id="U-off-triangle-left-1"></div>
+        <div id="U-off-triangle-left-2"></div>
+        <div id="U-off-triangle-right-2"></div>
+        <div id="U-off-triangle-down-3"></div>
+        <div id="U-off-triangle-left-3"></div>
+        <div id="U-off-triangle-right-3"></div>
+        <div id="U-off-triangle-right-4"></div>
+        <div id="U-off-triangle-up-2"></div>
+        <div id="U-off-triangle-left-4"></div>
+        <div id="U-off-triangle-left-5"></div>
+        <div id="U-off-triangle-right-5"></div>
+        <div id="U-off-triangle-down-4"></div>
+        <div id="U-off-triangle-left-6"></div>
+        <div id="U-off-triangle-right-6"></div>
+        <div id="U-off-triangle-right-7"></div>
+        <div id="U-off-triangle-up-3"></div>
+        <div id="U-off-triangle-left-7"></div>
+        <div id="U-off-triangle-up-4"></div>
+        <div id="U-off-triangle-down-5"></div>
+        <div id="U-off-triangle-up-5"></div>
+      </div>
+
+      <div class="V-off">
+        <div id="V-off-triangle-right-1"></div>
+        <div id="V-off-triangle-down-1"></div>
+        <div id="V-off-triangle-up-1"></div>
+        <div id="V-off-triangle-down-2"></div>
+        <div id="V-off-triangle-left-1"></div>
+        <div id="V-off-triangle-left-2"></div>
+        <div id="V-off-triangle-right-2"></div>
+        <div id="V-off-triangle-down-3"></div>
+        <div id="V-off-triangle-left-3"></div>
+        <div id="V-off-triangle-right-3"></div>
+        <div id="V-off-triangle-right-4"></div>
+        <div id="V-off-triangle-up-2"></div>
+        <div id="V-off-triangle-left-4"></div>
+        <div id="V-off-triangle-left-5"></div>
+        <div id="V-off-triangle-right-5"></div>
+        <div id="V-off-triangle-down-4"></div>
+        <div id="V-off-triangle-left-6"></div>
+        <div id="V-off-triangle-right-6"></div>
+        <div id="V-off-triangle-right-7"></div>
+        <div id="V-off-triangle-up-3"></div>
+        <div id="V-off-triangle-left-7"></div>
+        <div id="V-off-triangle-up-4"></div>
+        <div id="V-off-triangle-down-5"></div>
+        <div id="V-off-triangle-up-5"></div>
+      </div>
+
+      <div class="V-on">
+        <div id="V-off-triangle-right-1"></div>
+        <div id="V-off-triangle-down-1"></div>
+        <div id="V-off-triangle-up-1"></div>
+        <div id="V-off-triangle-down-2"></div>
+        <div id="V-off-triangle-left-1"></div>
+        <div id="V-off-triangle-left-2"></div>
+        <div id="V-off-triangle-right-2"></div>
+        <div id="V-off-triangle-down-3"></div>
+        <div id="V-off-triangle-left-3"></div>
+        <div id="V-off-triangle-right-3"></div>
+        <div id="V-off-triangle-right-4"></div>
+        <div id="V-off-triangle-up-2"></div>
+        <div id="V-off-triangle-left-4"></div>
+        <div id="V-off-triangle-left-5"></div>
+        <div id="V-off-triangle-right-5"></div>
+        <div id="V-off-triangle-down-4"></div>
+        <div id="V-off-triangle-left-6"></div>
+        <div id="V-off-triangle-right-6"></div>
+        <div id="V-off-triangle-right-7"></div>
+        <div id="V-off-triangle-up-3"></div>
+        <div id="V-off-triangle-left-7"></div>
+        <div id="V-off-triangle-up-4"></div>
+        <div id="V-off-triangle-down-5"></div>
+        <div id="V-off-triangle-up-5"></div>
+      </div>
+
+      <div class="W-off">
+        <div id="W-off-triangle-right-1"></div>
+        <div id="W-off-triangle-down-1"></div>
+        <div id="W-off-triangle-up-1"></div>
+        <div id="W-off-triangle-down-2"></div>
+        <div id="W-off-triangle-left-1"></div>
+        <div id="W-off-triangle-left-2"></div>
+        <div id="W-off-triangle-right-2"></div>
+        <div id="W-off-triangle-down-3"></div>
+        <div id="W-off-triangle-left-3"></div>
+        <div id="W-off-triangle-right-3"></div>
+        <div id="W-off-triangle-right-4"></div>
+        <div id="W-off-triangle-up-2"></div>
+        <div id="W-off-triangle-left-4"></div>
+        <div id="W-off-triangle-left-5"></div>
+        <div id="W-off-triangle-right-5"></div>
+        <div id="W-off-triangle-down-4"></div>
+        <div id="W-off-triangle-left-6"></div>
+        <div id="W-off-triangle-right-6"></div>
+        <div id="W-off-triangle-right-7"></div>
+        <div id="W-off-triangle-up-3"></div>
+        <div id="W-off-triangle-left-7"></div>
+        <div id="W-off-triangle-up-4"></div>
+        <div id="W-off-triangle-down-5"></div>
+        <div id="W-off-triangle-up-5"></div>
+      </div>
+
+      <div class="W-on">
+        <div id="W-off-triangle-right-1"></div>
+        <div id="W-off-triangle-down-1"></div>
+        <div id="W-off-triangle-up-1"></div>
+        <div id="W-off-triangle-down-2"></div>
+        <div id="W-off-triangle-left-1"></div>
+        <div id="W-off-triangle-left-2"></div>
+        <div id="W-off-triangle-right-2"></div>
+        <div id="W-off-triangle-down-3"></div>
+        <div id="W-off-triangle-left-3"></div>
+        <div id="W-off-triangle-right-3"></div>
+        <div id="W-off-triangle-right-4"></div>
+        <div id="W-off-triangle-up-2"></div>
+        <div id="W-off-triangle-left-4"></div>
+        <div id="W-off-triangle-left-5"></div>
+        <div id="W-off-triangle-right-5"></div>
+        <div id="W-off-triangle-down-4"></div>
+        <div id="W-off-triangle-left-6"></div>
+        <div id="W-off-triangle-right-6"></div>
+        <div id="W-off-triangle-right-7"></div>
+        <div id="W-off-triangle-up-3"></div>
+        <div id="W-off-triangle-left-7"></div>
+        <div id="W-off-triangle-up-4"></div>
+        <div id="W-off-triangle-down-5"></div>
+        <div id="W-off-triangle-up-5"></div>
+      </div>
+
+      <div class="X-off">
+        <div id="X-off-triangle-right-1"></div>
+        <div id="X-off-triangle-down-1"></div>
+        <div id="X-off-triangle-up-1"></div>
+        <div id="X-off-triangle-down-2"></div>
+        <div id="X-off-triangle-left-1"></div>
+        <div id="X-off-triangle-left-2"></div>
+        <div id="X-off-triangle-right-2"></div>
+        <div id="X-off-triangle-down-3"></div>
+        <div id="X-off-triangle-left-3"></div>
+        <div id="X-off-triangle-right-3"></div>
+        <div id="X-off-triangle-right-4"></div>
+        <div id="X-off-triangle-up-2"></div>
+        <div id="X-off-triangle-left-4"></div>
+        <div id="X-off-triangle-left-5"></div>
+        <div id="X-off-triangle-right-5"></div>
+        <div id="X-off-triangle-down-4"></div>
+        <div id="X-off-triangle-left-6"></div>
+        <div id="X-off-triangle-right-6"></div>
+        <div id="X-off-triangle-right-7"></div>
+        <div id="X-off-triangle-up-3"></div>
+        <div id="X-off-triangle-left-7"></div>
+        <div id="X-off-triangle-up-4"></div>
+        <div id="X-off-triangle-down-5"></div>
+        <div id="X-off-triangle-up-5"></div>
+      </div>
+
+      <div class="X-on">
+        <div id="X-off-triangle-right-1"></div>
+        <div id="X-off-triangle-down-1"></div>
+        <div id="X-off-triangle-up-1"></div>
+        <div id="X-off-triangle-down-2"></div>
+        <div id="X-off-triangle-left-1"></div>
+        <div id="X-off-triangle-left-2"></div>
+        <div id="X-off-triangle-right-2"></div>
+        <div id="X-off-triangle-down-3"></div>
+        <div id="X-off-triangle-left-3"></div>
+        <div id="X-off-triangle-right-3"></div>
+        <div id="X-off-triangle-right-4"></div>
+        <div id="X-off-triangle-up-2"></div>
+        <div id="X-off-triangle-left-4"></div>
+        <div id="X-off-triangle-left-5"></div>
+        <div id="X-off-triangle-right-5"></div>
+        <div id="X-off-triangle-down-4"></div>
+        <div id="X-off-triangle-left-6"></div>
+        <div id="X-off-triangle-right-6"></div>
+        <div id="X-off-triangle-right-7"></div>
+        <div id="X-off-triangle-up-3"></div>
+        <div id="X-off-triangle-left-7"></div>
+        <div id="X-off-triangle-up-4"></div>
+        <div id="X-off-triangle-down-5"></div>
+        <div id="X-off-triangle-up-5"></div>
+      </div>
+
+      <div class="Y-off">
+        <div id="Y-off-triangle-right-1"></div>
+        <div id="Y-off-triangle-down-1"></div>
+        <div id="Y-off-triangle-up-1"></div>
+        <div id="Y-off-triangle-down-2"></div>
+        <div id="Y-off-triangle-left-1"></div>
+        <div id="Y-off-triangle-left-2"></div>
+        <div id="Y-off-triangle-right-2"></div>
+        <div id="Y-off-triangle-down-3"></div>
+        <div id="Y-off-triangle-left-3"></div>
+        <div id="Y-off-triangle-right-3"></div>
+        <div id="Y-off-triangle-right-4"></div>
+        <div id="Y-off-triangle-up-2"></div>
+        <div id="Y-off-triangle-left-4"></div>
+        <div id="Y-off-triangle-left-5"></div>
+        <div id="Y-off-triangle-right-5"></div>
+        <div id="Y-off-triangle-down-4"></div>
+        <div id="Y-off-triangle-left-6"></div>
+        <div id="Y-off-triangle-right-6"></div>
+        <div id="Y-off-triangle-right-7"></div>
+        <div id="Y-off-triangle-up-3"></div>
+        <div id="Y-off-triangle-left-7"></div>
+        <div id="Y-off-triangle-up-4"></div>
+        <div id="Y-off-triangle-down-5"></div>
+        <div id="Y-off-triangle-up-5"></div>
+      </div>
+
+      <div class="Y-on">
+        <div id="Y-off-triangle-right-1"></div>
+        <div id="Y-off-triangle-down-1"></div>
+        <div id="Y-off-triangle-up-1"></div>
+        <div id="Y-off-triangle-down-2"></div>
+        <div id="Y-off-triangle-left-1"></div>
+        <div id="Y-off-triangle-left-2"></div>
+        <div id="Y-off-triangle-right-2"></div>
+        <div id="Y-off-triangle-down-3"></div>
+        <div id="Y-off-triangle-left-3"></div>
+        <div id="Y-off-triangle-right-3"></div>
+        <div id="Y-off-triangle-right-4"></div>
+        <div id="Y-off-triangle-up-2"></div>
+        <div id="Y-off-triangle-left-4"></div>
+        <div id="Y-off-triangle-left-5"></div>
+        <div id="Y-off-triangle-right-5"></div>
+        <div id="Y-off-triangle-down-4"></div>
+        <div id="Y-off-triangle-left-6"></div>
+        <div id="Y-off-triangle-right-6"></div>
+        <div id="Y-off-triangle-right-7"></div>
+        <div id="Y-off-triangle-up-3"></div>
+        <div id="Y-off-triangle-left-7"></div>
+        <div id="Y-off-triangle-up-4"></div>
+        <div id="Y-off-triangle-down-5"></div>
+        <div id="Y-off-triangle-up-5"></div>
+      </div>
+
+      <div class="Z-off">
+        <div id="Z-off-triangle-right-1"></div>
+        <div id="Z-off-triangle-down-1"></div>
+        <div id="Z-off-triangle-up-1"></div>
+        <div id="Z-off-triangle-down-2"></div>
+        <div id="Z-off-triangle-left-1"></div>
+        <div id="Z-off-triangle-left-2"></div>
+        <div id="Z-off-triangle-right-2"></div>
+        <div id="Z-off-triangle-down-3"></div>
+        <div id="Z-off-triangle-left-3"></div>
+        <div id="Z-off-triangle-right-3"></div>
+        <div id="Z-off-triangle-right-4"></div>
+        <div id="Z-off-triangle-up-2"></div>
+        <div id="Z-off-triangle-left-4"></div>
+        <div id="Z-off-triangle-left-5"></div>
+        <div id="Z-off-triangle-right-5"></div>
+        <div id="Z-off-triangle-down-4"></div>
+        <div id="Z-off-triangle-left-6"></div>
+        <div id="Z-off-triangle-right-6"></div>
+        <div id="Z-off-triangle-right-7"></div>
+        <div id="Z-off-triangle-up-3"></div>
+        <div id="Z-off-triangle-left-7"></div>
+        <div id="Z-off-triangle-up-4"></div>
+        <div id="Z-off-triangle-down-5"></div>
+        <div id="Z-off-triangle-up-5"></div>
+      </div>
+
+      <div class="Z-on">
+        <div id="Z-off-triangle-right-1"></div>
+        <div id="Z-off-triangle-down-1"></div>
+        <div id="Z-off-triangle-up-1"></div>
+        <div id="Z-off-triangle-down-2"></div>
+        <div id="Z-off-triangle-left-1"></div>
+        <div id="Z-off-triangle-left-2"></div>
+        <div id="Z-off-triangle-right-2"></div>
+        <div id="Z-off-triangle-down-3"></div>
+        <div id="Z-off-triangle-left-3"></div>
+        <div id="Z-off-triangle-right-3"></div>
+        <div id="Z-off-triangle-right-4"></div>
+        <div id="Z-off-triangle-up-2"></div>
+        <div id="Z-off-triangle-left-4"></div>
+        <div id="Z-off-triangle-left-5"></div>
+        <div id="Z-off-triangle-right-5"></div>
+        <div id="Z-off-triangle-down-4"></div>
+        <div id="Z-off-triangle-left-6"></div>
+        <div id="Z-off-triangle-right-6"></div>
+        <div id="Z-off-triangle-right-7"></div>
+        <div id="Z-off-triangle-up-3"></div>
+        <div id="Z-off-triangle-left-7"></div>
+        <div id="Z-off-triangle-up-4"></div>
+        <div id="Z-off-triangle-down-5"></div>
+        <div id="Z-off-triangle-up-5"></div>
       </div>
     </div>
   </body>
+
+  <script>
+    // A Character
+    $(".A-off").hover(function () {
+      $(".A-off").hide();
+      $(".A-on").show();
+    });
+
+    $(".A-on").mouseleave(function () {
+      $(".A-on").hide();
+      $(".A-off").show();
+    });
+
+    // B Character
+    $(".B-off").hover(function () {
+      $(".B-off").hide();
+      $(".B-on").show();
+    });
+
+    $(".B-on").mouseleave(function () {
+      $(".B-on").hide();
+      $(".B-off").show();
+    });
+
+    // C Character
+    $(".C-off").hover(function () {
+      $(".C-off").hide();
+      $(".C-on").show();
+    });
+
+    $(".C-on").mouseleave(function () {
+      $(".C-on").hide();
+      $(".C-off").show();
+    });
+
+    // D Character
+    $(".D-off").hover(function () {
+      $(".D-off").hide();
+      $(".D-on").show();
+    });
+
+    $(".D-on").mouseleave(function () {
+      $(".D-on").hide();
+      $(".D-off").show();
+    });
+
+    // E Character
+    $(".E-off").hover(function () {
+      $(".E-off").hide();
+      $(".E-on").show();
+    });
+
+    $(".E-on").mouseleave(function () {
+      $(".E-on").hide();
+      $(".E-off").show();
+    });
+
+    // F Character
+    $(".F-off").hover(function () {
+      $(".F-off").hide();
+      $(".F-on").show();
+    });
+
+    $(".F-on").mouseleave(function () {
+      $(".F-on").hide();
+      $(".F-off").show();
+    });
+
+    // G Character
+    $(".G-off").hover(function () {
+      $(".G-off").hide();
+      $(".G-on").show();
+    });
+
+    $(".G-on").mouseleave(function () {
+      $(".G-on").hide();
+      $(".G-off").show();
+    });
+
+    // H Character
+    $(".H-off").hover(function () {
+      $(".H-off").hide();
+      $(".H-on").show();
+    });
+
+    $(".H-on").mouseleave(function () {
+      $(".H-on").hide();
+      $(".H-off").show();
+    });
+
+    // I Character
+    $(".I-off").hover(function () {
+      $(".I-off").hide();
+      $(".I-on").show();
+    });
+
+    $(".I-on").mouseleave(function () {
+      $(".I-on").hide();
+      $(".I-off").show();
+    });
+
+    // J Character
+    $(".J-off").hover(function () {
+      $(".J-off").hide();
+      $(".J-on").show();
+    });
+
+    $(".J-on").mouseleave(function () {
+      $(".J-on").hide();
+      $(".J-off").show();
+    });
+
+    // K Character
+    $(".K-off").hover(function () {
+      $(".K-off").hide();
+      $(".K-on").show();
+    });
+
+    $(".K-on").mouseleave(function () {
+      $(".K-on").hide();
+      $(".K-off").show();
+    });
+
+    // L Character
+    $(".L-off").hover(function () {
+      $(".L-off").hide();
+      $(".L-on").show();
+    });
+
+    $(".L-on").mouseleave(function () {
+      $(".L-on").hide();
+      $(".L-off").show();
+    });
+
+    // M Character
+    $(".M-off").hover(function () {
+      $(".M-off").hide();
+      $(".M-on").show();
+    });
+
+    $(".M-on").mouseleave(function () {
+      $(".M-on").hide();
+      $(".M-off").show();
+    });
+
+    // N Character
+    $(".N-off").hover(function () {
+      $(".N-off").hide();
+      $(".N-on").show();
+    });
+
+    $(".N-on").mouseleave(function () {
+      $(".N-on").hide();
+      $(".N-off").show();
+    });
+
+    // O Character
+    $(".O-off").hover(function () {
+      $(".O-off").hide();
+      $(".O-on").show();
+    });
+
+    $(".O-on").mouseleave(function () {
+      $(".O-on").hide();
+      $(".O-off").show();
+    });
+
+    // P Character
+    $(".P-off").hover(function () {
+      $(".P-off").hide();
+      $(".P-on").show();
+    });
+
+    $(".P-on").mouseleave(function () {
+      $(".P-on").hide();
+      $(".P-off").show();
+    });
+
+    // Q Character
+    $(".Q-off").hover(function () {
+      $(".Q-off").hide();
+      $(".Q-on").show();
+    });
+
+    $(".Q-on").mouseleave(function () {
+      $(".Q-on").hide();
+      $(".Q-off").show();
+    });
+
+    // R Character
+    $(".R-off").hover(function () {
+      $(".R-off").hide();
+      $(".R-on").show();
+    });
+
+    $(".R-on").mouseleave(function () {
+      $(".R-on").hide();
+      $(".R-off").show();
+    });
+
+    // S Character
+    $(".S-off").hover(function () {
+      $(".S-off").hide();
+      $(".S-on").show();
+    });
+
+    $(".S-on").mouseleave(function () {
+      $(".S-on").hide();
+      $(".S-off").show();
+    });
+
+    // T Character
+    $(".T-off").hover(function () {
+      $(".T-off").hide();
+      $(".T-on").show();
+    });
+
+    $(".T-on").mouseleave(function () {
+      $(".T-on").hide();
+      $(".T-off").show();
+    });
+
+    // U Character
+    $(".U-off").hover(function () {
+      $(".U-off").hide();
+      $(".U-on").show();
+    });
+
+    $(".U-on").mouseleave(function () {
+      $(".U-on").hide();
+      $(".U-off").show();
+    });
+
+    // V Character
+    $(".V-off").hover(function () {
+      $(".V-off").hide();
+      $(".V-on").show();
+    });
+
+    $(".V-on").mouseleave(function () {
+      $(".V-on").hide();
+      $(".V-off").show();
+    });
+
+    // W Character
+    $(".W-off").hover(function () {
+      $(".W-off").hide();
+      $(".W-on").show();
+    });
+
+    $(".W-on").mouseleave(function () {
+      $(".W-on").hide();
+      $(".W-off").show();
+    });
+
+    // X Character
+    $(".X-off").hover(function () {
+      $(".X-off").hide();
+      $(".X-on").show();
+    });
+
+    $(".X-on").mouseleave(function () {
+      $(".X-on").hide();
+      $(".X-off").show();
+    });
+
+    // Y Character
+    $(".Y-off").hover(function () {
+      $(".Y-off").hide();
+      $(".Y-on").show();
+    });
+
+    $(".Y-on").mouseleave(function () {
+      $(".Y-on").hide();
+      $(".Y-off").show();
+    });
+
+    // Z Character
+    $(".Z-off").hover(function () {
+      $(".Z-off").hide();
+      $(".Z-on").show();
+    });
+
+    $(".Z-on").mouseleave(function () {
+      $(".Z-on").hide();
+      $(".Z-off").show();
+    });
+  </script>
 </html>
