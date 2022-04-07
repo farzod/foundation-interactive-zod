@@ -1,12 +1,13 @@
 body {
       font-family:  sans-serif;
       line-height: 1.5em;
-      background-color: white;  
+      background-color: #1B1A17;  
     }
     .main {
       width: 50%;
       margin: 3em auto;
       padding: 1em;
+      color: #E6D5B8;
       /* border:1px solid #CCC; */
     }
 
@@ -14,17 +15,18 @@ body {
       margin-top: 0;
       font-size: 3.5em;
       line-height: 1em;
+      color: #E6D5B8;
     }
 
 
     a {
       font-weight: bold;
-      color: #0000ff;
+      color: #F0A500;
       text-decoration: none;
     }
 
     a:hover {
-      background-color: #0000ff;
+      background-color: #E45826;
     }
 
     ul {
