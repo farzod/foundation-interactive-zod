@@ -1,0 +1,289 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #DADADA;
+}
+
+
+/* if you want to change the background of your canvas, do it here */
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: whitesmoke;
+	position: relative;
+	border: solid black 5px;
+}
+
+
+/* this is where you can style the objects in your still life */
+
+.square1{
+    width: 100px;
+    height: 40px;
+    margin-left: 367px;
+	margin-top: 250px;
+	transform: skew(20deg);
+	position: absolute;
+    background: #4c576a;
+}
+.square2{
+	width: 150px;
+    height: 30px;
+    margin-left: 375px;
+	margin-top: 290px;
+	border-radius: 0px;
+	position: absolute;
+    background: #2F2F3F;
+	box-shadow: 0.3em 0.3em 1em rgb(7,0,0,30%);
+}
+
+.base1{
+	width: 200px;
+    height: 40px;
+    background: #888888;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 288px;
+	
+
+}
+.base2{
+	width:200px;
+    height: 25px;
+    background: #6F6F6F;
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 310px;
+	
+
+}
+.base3{
+	width: 200px;
+    height: 50px;
+    background-color: #6A6A6A;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 310px;
+	
+	box-shadow: 0.3em 0.3em 1em black;
+
+}
+.colum{
+	width:90px;
+    height: 140px;
+    background: linear-gradient(180deg, #ffffd9, #b9a988);
+	border-radius: 10%;
+	position: absolute;
+	margin-left: 465px;
+	margin-top: 175px;
+	
+}
+.circle1{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(185deg, #ffffd9, #b9a988);
+	border-radius: 50%;
+	margin-left: 445px;
+	margin-top: 155px;
+	position: absolute;
+	
+}
+
+.circle2{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(175deg, #ffffd9, #b9a988);
+	border-radius: 50%;
+	margin-left: 495px;
+	margin-top: 155px;
+	position: absolute;
+	
+}
+
+.circle3{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(145deg, #ffffd9, #b9a988);
+	border-radius: 50%;
+	margin-left: 525px;
+	margin-top: 135px;
+	position: absolute;
+	
+}
+
+.circle4{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(145deg, #ffffd9, #b9a988);
+	border-radius: 50%;
+	margin-left: 475px;
+	margin-top: 125px;
+	position: absolute;
+	
+}
+
+.circle5{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(145deg, #ffffd9, #b9a988);
+	border-radius: 50%;
+	margin-left: 405px;
+	margin-top: 125px;
+	position: absolute;
+	
+}
+
+.circle6{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(135deg, #ffffd9, #b9a988);
+	border-radius: 50%;
+	margin-left: 525px;
+	margin-top: 195px;
+	position: absolute;
+	
+}
+
+.circle7{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(135deg, #ffffd9, #b9a988);
+	border-radius: 50%;
+	margin-left: 395px;
+	margin-top: 185px;
+	position: absolute;
+	
+}
+
+.circle8{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(135deg, #ffffd9, #b9a988);
+	border-radius: 50%;
+	margin-left: 415px;
+	margin-top: 195px;
+	position: absolute;
+	
+}
+
+.tail{
+    width:80px;
+    height:0;
+    border-top: 110px solid #ffffd9;
+    border-right: 10px solid transparent;
+    border-left:10px solid transparent;
+	margin-left: 280px;
+	margin-top: 120px;
+	border-radius: 10%;
+	position: absolute;
+	transform: rotate(20deg);
+}
+
+.oval {
+    width: 70px;
+    height: 35px;
+    margin-left: 303px;
+	margin-top: 110px;
+    background: #b9a988;
+    position: absolute;
+    border-radius: 100px / 50px;
+    transform: rotate(15deg);
+  }
+
+.body{
+	width: 150px;
+    height: 100px;
+    background: #ffffd9;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 200px;
+    
+	
+}
+
+.leg1{
+	width: 50px;
+    height: 20px;
+     background: #ffffd9;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 190px;
+	margin-top: 270px;
+	transform: rotate(-70deg);
+	box-shadow: 0.3em 0.3em 1em rgb(0,0,0,70%);
+}
+.leg2{
+	width: 40px;
+    height: 20px;
+     background: #ffffd9;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 275px;
+	transform: rotate(70deg);
+	box-shadow: 0.3em 0.3em 1em rgb(0,0,0,70%);
+}
+
+.ear1{
+	width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom: 25px solid #ffffd9;
+	border-radius: 30%;
+	margin-left: 175px;
+	margin-top: 180px;
+	position: absolute;
+	transform: rotate(-40deg);
+	
+}
+.ear2{
+	width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-bottom: 20px solid #b9a988;
+	border-radius: 40%;
+	margin-left: 190px;
+	margin-top: 205px;
+	position: absolute;
+	transform: rotate(-40deg);
+}
+.fire{
+   width: 20px;
+   height: 40px;
+   background: linear-gradient(0deg, yellow, red);
+   border-radius: 50%  50%  50%  50%  / 50%   50%   50%  50%;
+   margin-left: 500px;
+   margin-top: 130px;
+   position: absolute;
+   animation: fire 0.1s ease-in-out infinite alternate;
+   filter: brightness(110%);
+   
+}
+
+@keyframes fire{
+	0%{
+		opacity: 1;
+        margin-top: 130px;
+	}
+	20%{
+		opacity: 80%;
+	}
+
+	40%{
+		opacity: 60%;
+	}
+	80%{
+		opacity: 80%;
+	}
+	100%{
+        opacity: 1;
+        margin-top: 126px;
+  }
+}
