@@ -1,0 +1,18 @@
+body{
+    display: block;
+}
+
+h1{
+    font-size: 50px;
+	margin: 60px;
+	position: relative;
+  text-align: center;
+	color: blue;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
