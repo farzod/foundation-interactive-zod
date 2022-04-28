@@ -1,0 +1,62 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  background: url("https://images.unsplash.com/photo-1511586146490-0c8a5a11bcbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1802&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#door {
+  width: 400px;
+  height: 400px;
+  /* background-color: red; */
+  margin-left: 30vw;
+  margin-top: -40vh;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+#door-click {
+  width: 500px;
+  height: 500px;
+  margin-left: -50px;
+}
+
+#doorButton {
+  visibility: hidden;
+  font-family: "Creepster", serif;
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  position: relative;
+  z-index: 10;
+  margin-top: -500px;
+  margin-left: 750px;
+}
+
+#door:hover + #doorButton {
+  visibility: visible;
+}
+
+.nav {
+  position: absolute;
+}
+
+#back {
+  font-size: xx-large;
+  color: #1a202c;
+  float: right;
+}
+#next {
+  font-size: xx-large;
+  color: #1a202c;
+}

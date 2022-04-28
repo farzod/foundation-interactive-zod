@@ -1,0 +1,67 @@
+body {
+  height: 90vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: "Creepster", serif;
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  font-size: 12em;
+  text-shadow: 0 0 10px whitesmoke, 0 0 40px whitesmoke, 0 0 80px whitesmoke;
+}
+
+.myButton {
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0 0 10px whitesmoke, 0 0 40px whitesmoke, 0 0 80px whitesmoke;
+  box-sizing: border-box;
+  color: #1a202c;
+  font-family: Creepster, serif;
+  font-size: 3rem;
+  justify-content: center;
+  padding: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 40px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  opacity: 0%;
+
+  animation: showButton;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes showButton {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, whitesmoke 5%, whitesmoke 100%);
+  background-color: #ccc2a6;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
