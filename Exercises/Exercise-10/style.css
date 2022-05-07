@@ -1,0 +1,47 @@
+body{
+    background-color: #006E7F;
+}
+
+.container {
+    padding-top: 6em;
+    text-align: center;
+  }
+
+#gen {
+    outline: none;
+    padding-top: 5px;
+    text-decoration: none;
+    background-color: #EE5007;
+    color: white;
+    border: thin solid white;
+    height: 60px;
+    width: 140px;
+    font-size: large;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+  }
+
+#content {
+    height: 25em;
+  } p {
+    max-width: 20em;
+    color: #F8CB2E ;
+    font-family: 'Titan One', cursive;
+    text-align:center;
+    font-variant: small-caps;
+    margin: 80px auto;
+    font-size: 4em;
+    
+  }
+  
+  #gen:hover {
+    background-color: white;
+    color: black;
+    border: thin solid black;
+    opacity: 0.8;
+  }
+  
+  /* #gen a {
+    text-decoration: none;
+  } */
