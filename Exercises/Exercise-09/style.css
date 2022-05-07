@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #112B3C;
+}
+
+
+
+:root{
+	--second:  1s;
+	--minute: calc(var(--second)*60);
+	--hour: calc(var(--minute)*60);
+	--halfday:  calc(var(--hour)*12);
+	--setTimeHour:  10;
+	--setTimeMinute: 10;
+	--timeShiftHour:  calc(var(--setTimeHour)*var(--hour));
+	--timeShiftMinute: calc(var(--setTimeMinute)*var(--minute));
+}
+
+@keyframes rotate{
+	from{transform: rotate(0);}
+	to{transform: rotate(1turn);}
+}
+
+
+.hour{
+	--width: 20px;
+	--height: 140px;
+	border-radius: 50%;
+	--background-color: #BABD42;
+	animation:  rotate steps(12) var(--halfday) infinite;
+	animation-delay: calc((var(--timeShiftHour) + var(--timeShiftMinute)) * -1);
+}
+.minute{
+	--width: 20px;
+	--height: 200px;
+	border-radius: 50%;
+	--background-color: #EFD345;
+	animation: rotate steps(60) var(--hour) infinite;
+	animation-delay: calc(var(--timeShiftMinute)*-1);
+}
+.seconds{
+	--width: 10px;
+	--height: 240px;
+	border-radius: 50%;
+	--background-color: #FF8D29;
+	animation: rotate steps(60) var(--minute) infinite;
+}
+.hand{
+	position: absolute;
+	left: calc(50% - var(--width)/2);
+	width: var(--width);
+	height: var(--height);
+	background-color: var(--background-color);
+	top: 50%;
+	transform-origin: center 0;
+	
+}
+.circle1{
+	width: 40px;
+	height: 40px;
+	background: #F66B0E;
+	border-radius: 50%;
+	margin-top: -20px;
+	animation: color-change ease var(--minute) infinite;
+}
+.circle2{
+	width: 40px;
+	height: 40px;
+	background: #F66B0E;
+	border-radius: 50%;
+	margin-top: -20px;
+	margin-left: 460px ;
+	animation: color-change ease var(--minute) infinite;
+
+}
+.circle3{
+	width: 40px;
+	height: 40px;
+	background: #F66B0E;
+	border-radius: 50%;
+	margin-top: -250px;
+	margin-left: 230px;
+	animation: color-change ease var(--minute) infinite;
+
+}
+.circle4{
+	width: 40px;
+	height: 40px;
+	background: #F66B0E;
+	border-radius: 50%;
+	margin-top: 210px;
+	margin-left: 230px;
+	animation: color-change ease var(--minute) infinite;
+
+}
+.circle5{
+	width: 25px;
+	height: 25px;
+	
+	border-radius: 50%;
+	margin-top: -12px;
+	margin-left: 237px;
+	animation: color-change ease var(--minute) infinite;
+
+}
+@keyframes color-change{
+	0%{background-color: #FFEF82;}
+	50%{background-color:  #82954B;}
+	100%{background-color:  #FFEF82;}
+}
+
+.clockface{
+	width: 500px;
+	height: 500px;
+	border-radius: 100%;
+	position: relative;
+	animation: background-color ease var(--minute) infinite;
+	transform: rotate(180deg);
+}
+
+
+
+@keyframes background-color{
+	0%{background-color: #82954B;}
+	50%{background-color:  #FFEF82;}
+	100%{background-color:  #82954B;}
+
+}
