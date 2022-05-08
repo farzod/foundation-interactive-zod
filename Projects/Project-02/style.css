@@ -1,5 +1,17 @@
-body {
-  background-color: #ffea00;
+html {
+  background: url("https://images.unsplash.com/photo-1495313196544-7d1adf4e628f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  
 }
 
 .title {
@@ -13,6 +25,8 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  max-width: 400px;
 }
 
 .A-off {
@@ -6893,11 +6907,11 @@ body {
   }
 }
 
-.S {
+.S-off {
   margin: 0px;
 }
 
-#S-triangle-right-1 {
+#S-off-triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -6905,7 +6919,7 @@ body {
   border-bottom: 50px solid transparent;
 }
 
-#S-triangle-down-1 {
+#S-off-triangle-down-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -6914,7 +6928,7 @@ body {
   margin-top: -100px;
 }
 
-#S-triangle-up-1 {
+#S-off-triangle-up-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -6924,7 +6938,7 @@ body {
   margin-top: -50px;
 }
 
-#S-triangle-down-2 {
+#S-off-triangle-down-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -6934,7 +6948,7 @@ body {
   margin-top: -50px;
 }
 
-#S-triangle-left-1 {
+#S-off-triangle-left-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -6944,17 +6958,17 @@ body {
   margin-left: 150px;
 }
 
-#S-triangle-left-2 {
+#S-off-triangle-left-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 0px;
 }
 
-#S-triangle-right-2 {
+#S-off-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -6964,17 +6978,17 @@ body {
   margin-left: 50px;
 }
 
-#S-triangle-down-3 {
+#S-off-triangle-down-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 50px solid white;
+  border-top: 50px solid black;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#S-triangle-left-3 {
+#S-off-triangle-left-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -6984,7 +6998,7 @@ body {
   margin-left: 100px;
 }
 
-#S-triangle-right-3 {
+#S-off-triangle-right-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -6994,7 +7008,7 @@ body {
   margin-left: 150px;
 }
 
-#S-triangle-right-4 {
+#S-off-triangle-right-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7004,7 +7018,7 @@ body {
   margin-left: 0px;
 }
 
-#S-triangle-up-2 {
+#S-off-triangle-up-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7014,7 +7028,7 @@ body {
   margin-top: -100px;
 }
 
-#S-triangle-left-4 {
+#S-off-triangle-left-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7024,7 +7038,7 @@ body {
   margin-left: 150px;
 }
 
-#S-triangle-left-5 {
+#S-off-triangle-left-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7034,7 +7048,7 @@ body {
   margin-left: 0px;
 }
 
-#S-triangle-right-5 {
+#S-off-triangle-right-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7044,17 +7058,17 @@ body {
   margin-left: 50px;
 }
 
-#S-triangle-down-4 {
+#S-off-triangle-down-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 50px solid white;
+  border-top: 50px solid black;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#S-triangle-left-6 {
+#S-off-triangle-left-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7064,17 +7078,17 @@ body {
   margin-left: 100px;
 }
 
-#S-triangle-right-6 {
+#S-off-triangle-right-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 150px;
 }
 
-#S-triangle-right-7 {
+#S-off-triangle-right-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7084,17 +7098,17 @@ body {
   margin-left: 0px;
 }
 
-#S-triangle-up-3 {
+#S-off-triangle-up-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#S-triangle-left-7 {
+#S-off-triangle-left-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7104,7 +7118,7 @@ body {
   margin-left: 150px;
 }
 
-#S-triangle-up-4 {
+#S-off-triangle-up-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7114,7 +7128,7 @@ body {
   margin-top: -50px;
 }
 
-#S-triangle-down-5 {
+#S-off-triangle-down-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7124,7 +7138,7 @@ body {
   margin-left: 50px;
 }
 
-#S-triangle-up-5 {
+#S-off-triangle-up-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7134,19 +7148,154 @@ body {
   margin-top: -50px;
 }
 
-.T {
+.S-on {
+  margin: 0px;
+  display: none;
+}
+
+#S-on-triangle-left-2 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 0px;
+
+  animation: S-1;
+  animation-duration: 0.1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes S-1 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+
+#S-on-triangle-down-3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid black;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: S-2;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes S-2 {
+  0% {
+    border-top: 50px solid black;
+  }
+  100% {
+    border-top: 50px solid white;
+  }
+}
+
+
+#S-on-triangle-down-4 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid black;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: S-3;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes S-3 {
+  0% {
+    border-top: 50px solid black;
+  }
+  100% {
+    border-top: 50px solid white;
+  }
+}
+
+
+#S-on-triangle-right-6 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 150px;
+
+  animation: S-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes S-4 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#S-on-triangle-up-3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: S-5;
+  animation-duration: 0.1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes S-5 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+
+.T-off {
   margin: 0px;
 }
 
-#T-triangle-right-1 {
+#T-off-triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
 }
 
-#T-triangle-down-1 {
+#T-off-triangle-down-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7155,7 +7304,7 @@ body {
   margin-top: -100px;
 }
 
-#T-triangle-up-1 {
+#T-off-triangle-up-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7165,7 +7314,7 @@ body {
   margin-top: -50px;
 }
 
-#T-triangle-down-2 {
+#T-off-triangle-down-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7175,17 +7324,17 @@ body {
   margin-top: -50px;
 }
 
-#T-triangle-left-1 {
+#T-off-triangle-left-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 150px;
 }
 
-#T-triangle-left-2 {
+#T-off-triangle-left-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7195,7 +7344,7 @@ body {
   margin-left: 0px;
 }
 
-#T-triangle-right-2 {
+#T-off-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7205,17 +7354,17 @@ body {
   margin-left: 50px;
 }
 
-#T-triangle-down-3 {
+#T-off-triangle-down-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 50px solid white;
+  border-top: 50px solid black;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#T-triangle-left-3 {
+#T-off-triangle-left-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7225,7 +7374,7 @@ body {
   margin-left: 100px;
 }
 
-#T-triangle-right-3 {
+#T-off-triangle-right-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7235,7 +7384,7 @@ body {
   margin-left: 150px;
 }
 
-#T-triangle-right-4 {
+#T-off-triangle-right-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7245,17 +7394,17 @@ body {
   margin-left: 0px;
 }
 
-#T-triangle-up-2 {
+#T-off-triangle-up-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#T-triangle-left-4 {
+#T-off-triangle-left-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7265,7 +7414,7 @@ body {
   margin-left: 150px;
 }
 
-#T-triangle-left-5 {
+#T-off-triangle-left-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7275,7 +7424,7 @@ body {
   margin-left: 0px;
 }
 
-#T-triangle-right-5 {
+#T-off-triangle-right-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7285,17 +7434,17 @@ body {
   margin-left: 50px;
 }
 
-#T-triangle-down-4 {
+#T-off-triangle-down-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 50px solid white;
+  border-top: 50px solid black;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#T-triangle-left-6 {
+#T-off-triangle-left-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7305,7 +7454,7 @@ body {
   margin-left: 100px;
 }
 
-#T-triangle-right-6 {
+#T-off-triangle-right-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7315,7 +7464,7 @@ body {
   margin-left: 150px;
 }
 
-#T-triangle-right-7 {
+#T-off-triangle-right-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7325,17 +7474,17 @@ body {
   margin-left: 0px;
 }
 
-#T-triangle-up-3 {
+#T-off-triangle-up-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#T-triangle-left-7 {
+#T-off-triangle-left-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7345,7 +7494,7 @@ body {
   margin-left: 150px;
 }
 
-#T-triangle-up-4 {
+#T-off-triangle-up-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7355,7 +7504,7 @@ body {
   margin-top: -50px;
 }
 
-#T-triangle-down-5 {
+#T-off-triangle-down-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7365,7 +7514,7 @@ body {
   margin-left: 50px;
 }
 
-#T-triangle-up-5 {
+#T-off-triangle-up-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7375,11 +7524,167 @@ body {
   margin-top: -50px;
 }
 
-.U {
+.T-on {
+  margin: 0px;
+  display: none;
+}
+
+#T-on-triangle-right-1 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+
+  animation: T-1;
+  animation-duration: 0.1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes T-1 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#T-on-triangle-left-1 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 150px;
+
+  animation: T-2;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes T-2 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+#T-on-triangle-down-3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid black;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: T-3;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes T-3 {
+  0% {
+    border-top: 50px solid black;
+  }
+  100% {
+    border-top: 50px solid white;
+  }
+}
+
+#T-on-triangle-up-2 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: T-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes T-4 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+
+#T-on-triangle-down-4 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid black;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: T-5;
+  animation-duration: 0.1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes T-5 {
+  0% {
+    border-top: 50px solid black;
+  }
+  100% {
+    border-top: 50px solid white;
+  }
+}
+
+#T-on-triangle-up-3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: T-6;
+  animation-duration: 0.1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes T-6 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+
+.U-off {
   margin: 0px;
 }
 
-#U-triangle-right-1 {
+#U-off-triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7387,7 +7692,7 @@ body {
   border-bottom: 50px solid transparent;
 }
 
-#U-triangle-down-1 {
+#U-off-triangle-down-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7396,7 +7701,7 @@ body {
   margin-top: -100px;
 }
 
-#U-triangle-up-1 {
+#U-off-triangle-up-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7406,7 +7711,7 @@ body {
   margin-top: -50px;
 }
 
-#U-triangle-down-2 {
+#U-off-triangle-down-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7416,7 +7721,7 @@ body {
   margin-top: -50px;
 }
 
-#U-triangle-left-1 {
+#U-off-triangle-left-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7426,17 +7731,17 @@ body {
   margin-left: 150px;
 }
 
-#U-triangle-left-2 {
+#U-off-triangle-left-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 0px;
 }
 
-#U-triangle-right-2 {
+#U-off-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7446,7 +7751,7 @@ body {
   margin-left: 50px;
 }
 
-#U-triangle-down-3 {
+#U-off-triangle-down-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7456,7 +7761,7 @@ body {
   margin-left: 50px;
 }
 
-#U-triangle-left-3 {
+#U-off-triangle-left-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7466,17 +7771,17 @@ body {
   margin-left: 100px;
 }
 
-#U-triangle-right-3 {
+#U-off-triangle-right-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 150px;
 }
 
-#U-triangle-right-4 {
+#U-off-triangle-right-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7486,7 +7791,7 @@ body {
   margin-left: 0px;
 }
 
-#U-triangle-up-2 {
+#U-off-triangle-up-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7496,7 +7801,7 @@ body {
   margin-top: -100px;
 }
 
-#U-triangle-left-4 {
+#U-off-triangle-left-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7506,17 +7811,17 @@ body {
   margin-left: 150px;
 }
 
-#U-triangle-left-5 {
+#U-off-triangle-left-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 0px;
 }
 
-#U-triangle-right-5 {
+#U-off-triangle-right-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7526,7 +7831,7 @@ body {
   margin-left: 50px;
 }
 
-#U-triangle-down-4 {
+#U-off-triangle-down-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7536,7 +7841,7 @@ body {
   margin-left: 50px;
 }
 
-#U-triangle-left-6 {
+#U-off-triangle-left-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7546,17 +7851,17 @@ body {
   margin-left: 100px;
 }
 
-#U-triangle-right-6 {
+#U-off-triangle-right-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 150px;
 }
 
-#U-triangle-right-7 {
+#U-off-triangle-right-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7566,17 +7871,17 @@ body {
   margin-left: 0px;
 }
 
-#U-triangle-up-3 {
+#U-off-triangle-up-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#U-triangle-left-7 {
+#U-off-triangle-left-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7586,7 +7891,7 @@ body {
   margin-left: 150px;
 }
 
-#U-triangle-up-4 {
+#U-off-triangle-up-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7596,7 +7901,7 @@ body {
   margin-top: -50px;
 }
 
-#U-triangle-down-5 {
+#U-off-triangle-down-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7606,7 +7911,7 @@ body {
   margin-left: 50px;
 }
 
-#U-triangle-up-5 {
+#U-off-triangle-up-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7616,11 +7921,148 @@ body {
   margin-top: -50px;
 }
 
-.V {
+.U-on {
+  margin: 0px;
+  display: none;
+}
+
+
+#U-on-triangle-left-2 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 0px;
+
+  animation: U-1;
+  animation-duration: 0.1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes U-1 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+#U-on-triangle-right-3 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 150px;
+
+  animation: U-2;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes U-2 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#U-on-triangle-left-5 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 0px;
+
+  animation: U-3;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes U-3 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+
+#U-on-triangle-right-6 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 150px;
+
+  animation: U-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes U-4 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#U-on-triangle-up-3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: U-5;
+  animation-duration: 0.1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes U-5 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+
+
+
+.V-off {
   margin: 0px;
 }
 
-#V-triangle-right-1 {
+#V-off-triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7628,7 +8070,7 @@ body {
   border-bottom: 50px solid transparent;
 }
 
-#V-triangle-down-1 {
+#V-off-triangle-down-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7637,7 +8079,7 @@ body {
   margin-top: -100px;
 }
 
-#V-triangle-up-1 {
+#V-off-triangle-up-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7647,7 +8089,7 @@ body {
   margin-top: -50px;
 }
 
-#V-triangle-down-2 {
+#V-off-triangle-down-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7657,7 +8099,7 @@ body {
   margin-top: -50px;
 }
 
-#V-triangle-left-1 {
+#V-off-triangle-left-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7667,7 +8109,7 @@ body {
   margin-left: 150px;
 }
 
-#V-triangle-left-2 {
+#V-off-triangle-left-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7677,17 +8119,17 @@ body {
   margin-left: 0px;
 }
 
-#V-triangle-right-2 {
+#V-off-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#V-triangle-down-3 {
+#V-off-triangle-down-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7697,7 +8139,7 @@ body {
   margin-left: 50px;
 }
 
-#V-triangle-left-3 {
+#V-off-triangle-left-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7707,17 +8149,17 @@ body {
   margin-left: 100px;
 }
 
-#V-triangle-right-3 {
+#V-off-triangle-right-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 150px;
 }
 
-#V-triangle-right-4 {
+#V-off-triangle-right-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7727,7 +8169,7 @@ body {
   margin-left: 0px;
 }
 
-#V-triangle-up-2 {
+#V-off-triangle-up-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7737,7 +8179,7 @@ body {
   margin-top: -100px;
 }
 
-#V-triangle-left-4 {
+#V-off-triangle-left-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7747,7 +8189,7 @@ body {
   margin-left: 150px;
 }
 
-#V-triangle-left-5 {
+#V-off-triangle-left-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7757,27 +8199,27 @@ body {
   margin-left: 0px;
 }
 
-#V-triangle-right-5 {
+#V-off-triangle-right-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#V-triangle-down-4 {
+#V-off-triangle-down-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 50px solid white;
+  border-top: 50px solid black;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#V-triangle-left-6 {
+#V-off-triangle-left-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7787,7 +8229,7 @@ body {
   margin-left: 100px;
 }
 
-#V-triangle-right-6 {
+#V-off-triangle-right-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7797,7 +8239,7 @@ body {
   margin-left: 150px;
 }
 
-#V-triangle-right-7 {
+#V-off-triangle-right-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7807,7 +8249,7 @@ body {
   margin-left: 0px;
 }
 
-#V-triangle-up-3 {
+#V-off-triangle-up-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7817,7 +8259,7 @@ body {
   margin-top: -100px;
 }
 
-#V-triangle-left-7 {
+#V-off-triangle-left-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7827,7 +8269,7 @@ body {
   margin-left: 150px;
 }
 
-#V-triangle-up-4 {
+#V-off-triangle-up-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7837,7 +8279,7 @@ body {
   margin-top: -50px;
 }
 
-#V-triangle-down-5 {
+#V-off-triangle-down-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7847,7 +8289,7 @@ body {
   margin-left: 50px;
 }
 
-#V-triangle-up-5 {
+#V-off-triangle-up-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7856,12 +8298,122 @@ body {
   margin-left: 100px;
   margin-top: -50px;
 }
+
+.V-on {
+  margin: 0px;
+  display: none;
+}
+
+
+#V-on-triangle-right-2 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: V-1;
+  animation-duration: 0.1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes V-1 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#V-on-triangle-right-3 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 150px;
+
+  animation: V-2;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes V-2 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#V-on-triangle-right-5 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: V-3;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes V-3 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+#V-on-triangle-down-4 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid black;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: V-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes V-4 {
+  0% {
+    border-top: 50px solid black;
+  }
+  100% {
+    border-top: 50px solid white;
+  }
+}
+
+
 
 .W {
   margin: 0px;
 }
 
-#W-triangle-right-1 {
+#W-off-triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7869,7 +8421,7 @@ body {
   border-bottom: 50px solid transparent;
 }
 
-#W-triangle-down-1 {
+#W-off-triangle-down-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7878,7 +8430,7 @@ body {
   margin-top: -100px;
 }
 
-#W-triangle-up-1 {
+#W-off-triangle-up-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7888,7 +8440,7 @@ body {
   margin-top: -50px;
 }
 
-#W-triangle-down-2 {
+#W-off-triangle-down-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7898,7 +8450,7 @@ body {
   margin-top: -50px;
 }
 
-#W-triangle-left-1 {
+#W-off-triangle-left-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7908,7 +8460,7 @@ body {
   margin-left: 150px;
 }
 
-#W-triangle-left-2 {
+#W-off-triangle-left-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7918,7 +8470,7 @@ body {
   margin-left: 0px;
 }
 
-#W-triangle-right-2 {
+#W-off-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7928,7 +8480,7 @@ body {
   margin-left: 50px;
 }
 
-#W-triangle-down-3 {
+#W-off-triangle-down-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7938,7 +8490,7 @@ body {
   margin-left: 50px;
 }
 
-#W-triangle-left-3 {
+#W-off-triangle-left-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7948,7 +8500,7 @@ body {
   margin-left: 100px;
 }
 
-#W-triangle-right-3 {
+#W-off-triangle-right-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7958,17 +8510,17 @@ body {
   margin-left: 150px;
 }
 
-#W-triangle-right-4 {
+#W-off-triangle-right-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 0px;
 }
 
-#W-triangle-up-2 {
+#W-off-triangle-up-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -7978,17 +8530,17 @@ body {
   margin-top: -100px;
 }
 
-#W-triangle-left-4 {
+#W-off-triangle-left-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 150px;
 }
 
-#W-triangle-left-5 {
+#W-off-triangle-left-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -7998,7 +8550,7 @@ body {
   margin-left: 0px;
 }
 
-#W-triangle-right-5 {
+#W-off-triangle-right-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8008,7 +8560,7 @@ body {
   margin-left: 50px;
 }
 
-#W-triangle-down-4 {
+#W-off-triangle-down-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8018,7 +8570,7 @@ body {
   margin-left: 50px;
 }
 
-#W-triangle-left-6 {
+#W-off-triangle-left-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8028,7 +8580,7 @@ body {
   margin-left: 100px;
 }
 
-#W-triangle-right-6 {
+#W-off-triangle-right-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8038,37 +8590,37 @@ body {
   margin-left: 150px;
 }
 
-#W-triangle-right-7 {
+#W-off-triangle-right-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 0px;
 }
 
-#W-triangle-up-3 {
+#W-off-triangle-up-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#W-triangle-left-7 {
+#W-off-triangle-left-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 150px;
 }
 
-#W-triangle-up-4 {
+#W-off-triangle-up-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8078,17 +8630,17 @@ body {
   margin-top: -50px;
 }
 
-#W-triangle-down-5 {
+#W-off-triangle-down-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 50px solid white;
+  border-top: 50px solid black;
   margin-top: -50px;
   margin-left: 50px;
 }
 
-#W-triangle-up-5 {
+#W-off-triangle-up-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8098,11 +8650,172 @@ body {
   margin-top: -50px;
 }
 
-.X {
+.W-on {
+  margin: 0px;
+  display: none;
+}
+
+
+#W-on-triangle-right-4 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 0px;
+
+  animation: W-1;
+  animation-duration: 0.1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes W-1 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#W-on-triangle-left-4 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 150px;
+
+  animation: W-2;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes W-2 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+#W-on-triangle-right-7 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 0px;
+
+  animation: W-3;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes W-3 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+#W-on-triangle-up-3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: W-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes W-4 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+#W-on-triangle-left-7 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 150px;
+
+  animation: W-5;
+  animation-duration: 0.1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes W-5 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+
+
+#W-on-triangle-down-5 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid black;
+  margin-top: -50px;
+  margin-left: 50px;
+
+  animation: W-6;
+  animation-duration: 0.1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes W-6 {
+  0% {
+    border-top: 50px solid black;
+  }
+  100% {
+    border-top: 50px solid white;
+  }
+}
+
+
+
+.X-off {
   margin: 0px;
 }
 
-#X-triangle-right-1 {
+#X-off-triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8110,7 +8823,7 @@ body {
   border-bottom: 50px solid transparent;
 }
 
-#X-triangle-down-1 {
+#X-off-triangle-down-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8119,7 +8832,7 @@ body {
   margin-top: -100px;
 }
 
-#X-triangle-up-1 {
+#X-off-triangle-up-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8129,7 +8842,7 @@ body {
   margin-top: -50px;
 }
 
-#X-triangle-down-2 {
+#X-off-triangle-down-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8139,7 +8852,7 @@ body {
   margin-top: -50px;
 }
 
-#X-triangle-left-1 {
+#X-off-triangle-left-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8149,17 +8862,17 @@ body {
   margin-left: 150px;
 }
 
-#X-triangle-left-2 {
+#X-off-triangle-left-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 0px;
 }
 
-#X-triangle-right-2 {
+#X-off-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8169,7 +8882,7 @@ body {
   margin-left: 50px;
 }
 
-#X-triangle-down-3 {
+#X-off-triangle-down-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8179,7 +8892,7 @@ body {
   margin-left: 50px;
 }
 
-#X-triangle-left-3 {
+#X-off-triangle-left-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8189,17 +8902,17 @@ body {
   margin-left: 100px;
 }
 
-#X-triangle-right-3 {
+#X-off-triangle-right-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 150px;
 }
 
-#X-triangle-right-4 {
+#X-off-triangle-right-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8209,7 +8922,7 @@ body {
   margin-left: 0px;
 }
 
-#X-triangle-up-2 {
+#X-off-triangle-up-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8219,7 +8932,7 @@ body {
   margin-top: -100px;
 }
 
-#X-triangle-left-4 {
+#X-off-triangle-left-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8229,7 +8942,7 @@ body {
   margin-left: 150px;
 }
 
-#X-triangle-left-5 {
+#X-off-triangle-left-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8239,17 +8952,17 @@ body {
   margin-left: 0px;
 }
 
-#X-triangle-right-5 {
+#X-off-triangle-right-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#X-triangle-down-4 {
+#X-off-triangle-down-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8259,17 +8972,17 @@ body {
   margin-left: 50px;
 }
 
-#X-triangle-left-6 {
+#X-off-triangle-left-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 100px;
 }
 
-#X-triangle-right-6 {
+#X-off-triangle-right-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8279,7 +8992,7 @@ body {
   margin-left: 150px;
 }
 
-#X-triangle-right-7 {
+#X-off-triangle-right-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8289,7 +9002,7 @@ body {
   margin-left: 0px;
 }
 
-#X-triangle-up-3 {
+#X-off-triangle-up-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8299,7 +9012,7 @@ body {
   margin-top: -100px;
 }
 
-#X-triangle-left-7 {
+#X-off-triangle-left-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8309,17 +9022,17 @@ body {
   margin-left: 150px;
 }
 
-#X-triangle-up-4 {
+#X-off-triangle-up-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 0px;
   margin-top: -50px;
 }
 
-#X-triangle-down-5 {
+#X-off-triangle-down-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8329,21 +9042,182 @@ body {
   margin-left: 50px;
 }
 
-#X-triangle-up-5 {
+#X-off-triangle-up-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 100px;
   margin-top: -50px;
 }
 
-.Y {
+.X-on {
+  margin: 0px;
+  display: none;
+}
+
+
+#X-on-triangle-left-2 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 0px;
+
+  animation: X-1;
+  animation-duration: 0.1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes X-1 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+
+#X-on-triangle-right-3 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 150px;
+
+  animation: X-2;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes X-2 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#X-on-triangle-right-5 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: X-3;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes X-3 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+#X-on-triangle-left-6 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 100px;
+
+  animation: X-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes X-4 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+
+#X-on-triangle-up-4 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 0px;
+  margin-top: -50px;
+
+  animation: X-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes X-4 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+
+#X-on-triangle-up-5 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 100px;
+  margin-top: -50px;
+
+  animation: X-5;
+  animation-duration: 0.1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes X-5 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+.Y-off {
   margin: 0px;
 }
 
-#Y-triangle-right-1 {
+#Y-off-triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8351,7 +9225,7 @@ body {
   border-bottom: 50px solid transparent;
 }
 
-#Y-triangle-down-1 {
+#Y-off-triangle-down-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8360,7 +9234,7 @@ body {
   margin-top: -100px;
 }
 
-#Y-triangle-up-1 {
+#Y-off-triangle-up-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8370,7 +9244,7 @@ body {
   margin-top: -50px;
 }
 
-#Y-triangle-down-2 {
+#Y-off-triangle-down-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8380,7 +9254,7 @@ body {
   margin-top: -50px;
 }
 
-#Y-triangle-left-1 {
+#Y-off-triangle-left-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8390,17 +9264,17 @@ body {
   margin-left: 150px;
 }
 
-#Y-triangle-left-2 {
+#Y-off-triangle-left-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 0px;
 }
 
-#Y-triangle-right-2 {
+#Y-off-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8410,7 +9284,7 @@ body {
   margin-left: 50px;
 }
 
-#Y-triangle-down-3 {
+#Y-off-triangle-down-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8420,17 +9294,17 @@ body {
   margin-left: 50px;
 }
 
-#Y-triangle-left-3 {
+#Y-off-triangle-left-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 100px;
 }
 
-#Y-triangle-right-3 {
+#Y-off-triangle-right-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8440,7 +9314,7 @@ body {
   margin-left: 150px;
 }
 
-#Y-triangle-right-4 {
+#Y-off-triangle-right-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8450,17 +9324,17 @@ body {
   margin-left: 0px;
 }
 
-#Y-triangle-up-2 {
+#Y-off-triangle-up-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#Y-triangle-left-4 {
+#Y-off-triangle-left-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8470,7 +9344,7 @@ body {
   margin-left: 150px;
 }
 
-#Y-triangle-left-5 {
+#Y-off-triangle-left-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8480,17 +9354,17 @@ body {
   margin-left: 0px;
 }
 
-#Y-triangle-right-5 {
+#Y-off-triangle-right-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -100px;
   margin-left: 50px;
 }
 
-#Y-triangle-down-4 {
+#Y-off-triangle-down-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8500,7 +9374,7 @@ body {
   margin-left: 50px;
 }
 
-#Y-triangle-left-6 {
+#Y-off-triangle-left-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8510,7 +9384,7 @@ body {
   margin-left: 100px;
 }
 
-#Y-triangle-right-6 {
+#Y-off-triangle-right-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8520,7 +9394,7 @@ body {
   margin-left: 150px;
 }
 
-#Y-triangle-right-7 {
+#Y-off-triangle-right-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8530,17 +9404,17 @@ body {
   margin-left: 0px;
 }
 
-#Y-triangle-up-3 {
+#Y-off-triangle-up-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#Y-triangle-left-7 {
+#Y-off-triangle-left-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8550,7 +9424,7 @@ body {
   margin-left: 150px;
 }
 
-#Y-triangle-up-4 {
+#Y-off-triangle-up-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8560,7 +9434,7 @@ body {
   margin-top: -50px;
 }
 
-#Y-triangle-down-5 {
+#Y-off-triangle-down-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8570,7 +9444,7 @@ body {
   margin-left: 50px;
 }
 
-#Y-triangle-up-5 {
+#Y-off-triangle-up-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8580,11 +9454,149 @@ body {
   margin-top: -50px;
 }
 
-.Z {
+.Y-on {
+  margin: 0px;
+  display: none;
+}
+
+
+#Y-on-triangle-left-2 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 0px;
+
+  animation: Y-1;
+  animation-duration: 0.1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Y-1 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+
+#Y-on-triangle-left-3 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 100px;
+
+  animation: Y-2;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Y-2 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+
+#Y-on-triangle-up-2 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: Y-3;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Y-3 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+#Y-on-triangle-right-5 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -100px;
+  margin-left: 50px;
+
+  animation: Y-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Y-4 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+
+
+#Y-on-triangle-up-3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: Y-5;
+  animation-duration: 0.1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Y-5 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+
+
+
+.Z-off {
   margin: 0px;
 }
 
-#Z-triangle-right-1 {
+#Z-off-triangle-right-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8592,7 +9604,7 @@ body {
   border-bottom: 50px solid transparent;
 }
 
-#Z-triangle-down-1 {
+#Z-off-triangle-down-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8601,7 +9613,7 @@ body {
   margin-top: -100px;
 }
 
-#Z-triangle-up-1 {
+#Z-off-triangle-up-1 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8611,7 +9623,7 @@ body {
   margin-top: -50px;
 }
 
-#Z-triangle-down-2 {
+#Z-off-triangle-down-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8621,7 +9633,7 @@ body {
   margin-top: -50px;
 }
 
-#Z-triangle-left-1 {
+#Z-off-triangle-left-1 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8631,7 +9643,7 @@ body {
   margin-left: 150px;
 }
 
-#Z-triangle-left-2 {
+#Z-off-triangle-left-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8641,7 +9653,7 @@ body {
   margin-left: 0px;
 }
 
-#Z-triangle-right-2 {
+#Z-off-triangle-right-2 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8651,7 +9663,7 @@ body {
   margin-left: 50px;
 }
 
-#Z-triangle-down-3 {
+#Z-off-triangle-down-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8661,7 +9673,7 @@ body {
   margin-left: 50px;
 }
 
-#Z-triangle-left-3 {
+#Z-off-triangle-left-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8671,7 +9683,7 @@ body {
   margin-left: 100px;
 }
 
-#Z-triangle-right-3 {
+#Z-off-triangle-right-3 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8681,27 +9693,27 @@ body {
   margin-left: 150px;
 }
 
-#Z-triangle-right-4 {
+#Z-off-triangle-right-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 50px solid white;
+  border-left: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 0px;
 }
 
-#Z-triangle-up-2 {
+#Z-off-triangle-up-2 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#Z-triangle-left-4 {
+#Z-off-triangle-left-4 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8711,7 +9723,7 @@ body {
   margin-left: 150px;
 }
 
-#Z-triangle-left-5 {
+#Z-off-triangle-left-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8721,7 +9733,7 @@ body {
   margin-left: 0px;
 }
 
-#Z-triangle-right-5 {
+#Z-off-triangle-right-5 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8731,7 +9743,7 @@ body {
   margin-left: 50px;
 }
 
-#Z-triangle-down-4 {
+#Z-off-triangle-down-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8741,17 +9753,17 @@ body {
   margin-left: 50px;
 }
 
-#Z-triangle-left-6 {
+#Z-off-triangle-left-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 100px;
 }
 
-#Z-triangle-right-6 {
+#Z-off-triangle-right-6 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8761,7 +9773,7 @@ body {
   margin-left: 150px;
 }
 
-#Z-triangle-right-7 {
+#Z-off-triangle-right-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
@@ -8771,27 +9783,27 @@ body {
   margin-left: 0px;
 }
 
-#Z-triangle-up-3 {
+#Z-off-triangle-up-3 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 50px solid white;
+  border-bottom: 50px solid black;
   margin-left: 50px;
   margin-top: -100px;
 }
 
-#Z-triangle-left-7 {
+#Z-off-triangle-left-7 {
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 50px solid white;
+  border-right: 50px solid black;
   border-bottom: 50px solid transparent;
   margin-top: -50px;
   margin-left: 150px;
 }
 
-#Z-triangle-up-4 {
+#Z-off-triangle-up-4 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8801,7 +9813,7 @@ body {
   margin-top: -50px;
 }
 
-#Z-triangle-down-5 {
+#Z-off-triangle-down-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8811,7 +9823,7 @@ body {
   margin-left: 50px;
 }
 
-#Z-triangle-up-5 {
+#Z-off-triangle-up-5 {
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
@@ -8819,4 +9831,136 @@ body {
   border-bottom: 50px solid black;
   margin-left: 100px;
   margin-top: -50px;
+}
+
+.Z-on {
+  margin: 0px;
+  display: none;
+}
+
+
+#Z-on-triangle-right-4 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 0px;
+
+  animation: Z-1;
+  animation-duration: 0.1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Z-1 {
+  0% {
+    border-left: 50px solid black;
+  }
+  100% {
+    border-left: 50px solid white;
+  }
+}
+
+#Z-on-triangle-up-2 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: Z-2;
+  animation-duration: 0.1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Z-2 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+
+#Z-on-triangle-left-6 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 100px;
+
+  animation: Z-3;
+  animation-duration: 0.1s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Z-3 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
+}
+
+#Z-on-triangle-up-3 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid black;
+  margin-left: 50px;
+  margin-top: -100px;
+
+  animation: Z-4;
+  animation-duration: 0.1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Z-4 {
+  0% {
+    border-bottom: 50px solid black;
+  }
+  100% {
+    border-bottom: 50px solid white;
+  }
+}
+
+#Z-on-triangle-left-7 {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 50px solid black;
+  border-bottom: 50px solid transparent;
+  margin-top: -50px;
+  margin-left: 150px;
+
+  animation: Z-5;
+  animation-duration: 0.1s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Z-5 {
+  0% {
+    border-right: 50px solid black;
+  }
+  100% {
+    border-right: 50px solid white;
+  }
 }
